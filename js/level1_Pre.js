@@ -237,69 +237,70 @@ window.addEventListener('resize', Resize)
 
 // Globle Images Path Assign Here  ------------------------------------------------------------------
 // BackGroud Image
-var BGImg = "../asset/level_one_assets/Backgound.png"
+// var BGImg = "../asset/level_one_assets/Backgound.png"
+var BGImg = "asset/level_one_assets/Backgound.png"
 // var BGImg = "https://images.unsplash.com/photo-1647960611306-575d35715bf2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
 
 // Let's Play Image
-var LetsPlay = "../asset/Let's_play.png"
+var LetsPlay = "asset/Let's_play.png"
 
 // Audio Reply Btn Image
-var AudioReplyBtnImg = "../asset/logo/Audio_Replay.png"
+var AudioReplyBtnImg = "asset/logo/Audio_Replay.png"
 
 // Home Btn Image
-var HomeBtnImg = "../asset/logo/Home.png"
+var HomeBtnImg = "asset/logo/Home.png"
 
 // Back Btn Image 
-var BackBtnImg = "../asset/logo/Back.png"
+var BackBtnImg = "asset/logo/Back.png"
 
 // Progress Bar Img
 // var ProgressbarImg = "../asset/Progress_bar/Progress bar_Type_1.png"
-var ProgressbarImg = "../asset/Progress_bar/Updated/Progress bar_level1_start.png"
+var ProgressbarImg = "asset/Progress_bar/Updated/Progress bar_level1_start.png"
 
 // Sound Img
-var SoundImgMute = "../asset/logo/Music_Mute.png"
-var SoundImgUnMute = "../asset/logo/Music.png"
+var SoundImgMute = "asset/logo/Music_Mute.png"
+var SoundImgUnMute = "asset/logo/Music.png"
 
 // Hint Img
 var hintActive = false
-var HintImgInActive = "../asset/logo/Hint_Inactive.png"
-var HintImgActive = "../asset/logo/Hint.png"
+var HintImgInActive = "asset/logo/Hint_Inactive.png"
+var HintImgActive = "asset/logo/Hint.png"
 
 // Reward Img
 // var RewardImg = "../asset/logo/Rewards.png"
 // var RewardImg = "../asset/logo/Rewards 00.png"
 // var RewardImg = "../asset/logo/Rewards 0.png"
-var RewardImg = "../asset/logo/Rewards.png"
+var RewardImg = "asset/logo/Rewards.png"
 
 // Hand Img
-var handImg = "../asset/hand_img.png"
+var handImg = "asset/hand_img.png"
 
 // AR: Audio Reply Hand
-var ARhandImg = "../asset/logo/Hand_Cursor3.png"
+var ARhandImg = "asset/logo/Hand_Cursor3.png"
 
 // Instructor 
-var l1INS1 = "../asset/Instructor_L0_1.png"
-var l1INS2 = "../asset/Instructor_L0_2.png"
+var l1INS1 = "asset/Instructor_L0_1.png"
+var l1INS2 = "asset/Instructor_L0_2.png"
 
 // Error Images
-var ErrorBorder = "../asset/level_one_assets/Incorrect answer highlight.png"
-var SuccessBorder = "../asset/level_one_assets/Correct answer highlight.png"
+var ErrorBorder = "asset/level_one_assets/Incorrect answer highlight.png"
+var SuccessBorder = "asset/level_one_assets/Correct answer highlight.png"
 
 // White Box Image & Image Size
-var whiteBox = "../asset/Image place holder.png"
+var whiteBox = "asset/Image place holder.png"
 
 // Skip Button 
-var skipBtn = "../asset/logo/Skip.png"
+var skipBtn = "asset/logo/Skip.png"
 
 // Slides Images
 // Slide 3 Images
 // l1PS3 - Level 1 Presentation Slide 3
-var l1PS3LHS = "../asset/level_one_assets/Image asset Lone Update/Set 7_2 pink balls.png"
-var l1PS3RHS = "../asset/level_one_assets/Image asset Lone Update/Set 7_9 pink balls.png"
+var l1PS3LHS = "asset/level_one_assets/Image asset Lone Update/Set 7_2 pink balls.png"
+var l1PS3RHS = "asset/level_one_assets/Image asset Lone Update/Set 7_9 pink balls.png"
 
 // Slide 6 Images
-var l1PS6LHS = "../asset/level_one_assets/Image asset Lone Update/Set 1_2 blue shirts.png"
-var l1PS6RHS = "../asset/level_one_assets/Image asset Lone Update/Set 1_10 blue shirts.png"
+var l1PS6LHS = "asset/level_one_assets/Image asset Lone Update/Set 1_2 blue shirts.png"
+var l1PS6RHS = "asset/level_one_assets/Image asset Lone Update/Set 1_10 blue shirts.png"
 
 
 // Global x,y Size For Slide Rounds -------------------------------------------------------
@@ -572,24 +573,28 @@ document.addEventListener("visibilitychange", function () {
 
 // All Sound Path Put Here  ---------------------------------------------------------
 // BackGroud Sound
-var BGSound = '../Sounds/level0_sounds/backgroud_music_free.mp3'
+var BGSound = 'Sounds/level0_sounds/backgroud_music_free.mp3'
 
 // Audio Play Again
-var AudioPAgain = '../Sounds/Global_Music/Here_ins_again.mp3'
+var AudioPAgain = 'Sounds/Global_Music/Here_ins_again.mp3'
 
 // Audio Answer Selection
-var WrongSelSound = '../Sounds/Global_Music/Music/For the wrong answer.mp3'
-var tryAgainSound = '../Sounds/Global_Music/GL_A_20.mp3'
+var WrongSelSound = 'Sounds/Global_Music/Music/For the wrong answer.mp3'
+var tryAgainSound = 'Sounds/Global_Music/GL_A_20.mp3'
 
-var CorrectSelSound = '../Sounds/Global_Music/Music/For correct answer.mp3'
+var CorrectSelSound = 'Sounds/Global_Music/Music/For correct answer.mp3'
 
 // Level 1 All Audios
-var Audio1 = '../Sounds/level1_sounds/ML_A_L1_1.mp3'
-var Audio2 = '../Sounds/level1_sounds/ML_A_L1_2.mp3'
-var Audio3 = '../Sounds/level1_sounds/ML_A_L1_3.mp3'
-var Audio4 = '../Sounds/level1_sounds/ML_A_L1_4.mp3'
+var Audio1 = 'Sounds/level1_sounds/ML_A_L1_1.mp3'
+var Audio2 = 'Sounds/level1_sounds/ML_A_L1_2.mp3'
+var Audio3 = 'Sounds/level1_sounds/ML_A_L1_3.mp3'
+var Audio4 = 'Sounds/level1_sounds/ML_A_L1_4.mp3'
+var Audio5 = 'Sounds/level1_sounds/ML_A_L1_5.mp3'
+var Audio6 = 'Sounds/level1_sounds/ML_A_L1_6.mp3'
+var Audio7 = 'Sounds/level1_sounds/ML_A_L1_7.mp3'
+var Audio8 = 'Sounds/level1_sounds/ML_A_L1_8.mp3'
 
-var AudioReplyDef = '../Sounds/Global_Music/GL_A_19.mp3'
+var AudioReplyDef = 'Sounds/Global_Music/GL_A_19.mp3'
 
 // ----------------------------------------------------------------------------------------
 
@@ -833,14 +838,15 @@ function playAudio(path) {
                         // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
                         break;
 
-                    case '../Sounds/level0_sounds/ML_A_L0_5.mp3':
+                    // case '../Sounds/level0_sounds/ML_A_L0_5.mp3':
+                    case Audio5:
                         // console.log("Fourth end");
                         // replyAudioSound.setVolume(0)
                         l1PS5()
                         // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
                         break;
 
-                    case '../Sounds/level0_sounds/ML_A_L0_6.mp3':
+                    case Audio6:
                         // isAudio4Working = true
                         // console.log("Fifth end");
                         // playAudio("../Sounds/level1_sounds/ML_A_L1_4.mp3")
@@ -1345,14 +1351,14 @@ function headerBack() {
                     // location.href = "/level1_Pre.html"
                     // window.location.replace(`${endPoint}/level1_Pre.html`); // Active
                     // window.location.replace(`${endPoint}/index.html`); // Active path change
-                    window.location.replace(`level0.html`); // Active
+                    window.location.replace(`/level0.html`); // Active
                     // window.location.replace(`${endPoint}/level1Testing.html`); // Testing
 
                 } else {
                     // location.href = "/level1_Pre.html"
                     // window.location.replace(`${endPoint}/level1_Pre.html`);  // Active
                     // window.location.replace(`${endPoint}/index.html`); // Active path change
-                    window.location.replace(`level0.html`);  // Active
+                    window.location.replace(`/level0.html`);  // Active
                     // window.location.replace(`${endPoint}/level1Testing.html`); // Testing
 
                 }
@@ -1835,7 +1841,8 @@ function firstVisitAgain() {
                     plane2.visible = false;
 
                     // Comment audio only for testing purpose
-                    playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
+                    // playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
+                    playAudio(Audio1)
                     // btndisable = false
 
                     // console.log("insOneLoad inside Function", insOneLoad);
@@ -2662,7 +2669,8 @@ function l1PS4() {
     // Audio Indicating Less
     isFunc4Active = true
     // scene.remove(planeReplyAudio)
-    playAudio("../Sounds/level0_sounds/ML_A_L0_5.mp3")
+    // playAudio("../Sounds/level0_sounds/ML_A_L0_5.mp3")
+    playAudio(Audio5)
     sound.setVolume(0)
     // PlayAudio Function Call for Move to Next Function
     // if (planeS3LHS.visible) {
@@ -2815,7 +2823,8 @@ function l1PS5() {
     // isFunc5Active = true
     // scene.add(planeReplyAudio)
     // Audio Indicating Less
-    playAudio("../Sounds/level0_sounds/ML_A_L0_6.mp3")
+    // playAudio("../Sounds/level0_sounds/ML_A_L0_6.mp3")
+    playAudio(Audio6)
     // replyAudio(Audio4)
     // playAudio("../Sounds/level1_sounds/ML_A_L1_4.mp3")
     sound.setVolume(0)
@@ -3237,10 +3246,11 @@ function l1PS6_Skip() {
                     console.log("Redirect New Page");
                     console.log("endPoint", endPoint);
                     // location.href = '/level1.html'
-                    window.location.replace(`${endPoint}/level1.html`);
+                    // window.location.replace(`${endPoint}/level1.html`); // active
+                    window.location.replace(`/level1.html`); // active
                 } else {
                     // location.href = '/level1.html'
-                    window.location.replace(`${endPoint}/level1.html`);
+                    window.location.replace(`/level1.html`);
                 }
 
             }, false)

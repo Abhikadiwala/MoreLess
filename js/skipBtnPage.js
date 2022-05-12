@@ -76,11 +76,32 @@ var planeLZCLHS, planeLZCRHS;
 var nextAudio = false;  // For Next audio Approval default (false)
 // console.log("nextAudio ", nextAudio);
 
+// All Images global paths
+//  ---------------------------------------------------------------------------------
+// var BGImg = "../asset/BackgroundL0.png" 
+var BGImg = "asset/BackgroundL0.png"
+
+var let_play = "asset/Let's_play.png"
+
+var ContinueBtnImg = "asset/logo/Continue_Green.png"
+var playNextBtn = "asset/logo/Play the next level.png"
+//  ---------------------------------------------------------------------------------
+
+// All Sounds
+//  ---------------------------------------------------------------------------------
+var Audio1 = 'Sounds/level0_sounds/ML_A_L0_1.mp3'
+
+var Audio_GL_17 = "Sounds/Global_Music/GL_A_17.mp3"
+
+//  ---------------------------------------------------------------------------------
+
+
 //  ---------------------------------------------------------------------------------
 //Load Background Image
 const loadImg = new THREE.TextureLoader();  // For Backgroud Image
 loadImg.load(
-  "../asset/BackgroundL0.png",
+  // "../asset/BackgroundL0.png",
+  BGImg,
 
   function (texture) {
     var planeMaterial = new THREE.MeshBasicMaterial({
@@ -131,7 +152,8 @@ function firstVisitAgain() {
   // Load Image here Start Button 
   const loadImg2 = new THREE.TextureLoader();
   loadImg2.load(
-    "../asset/Let's_play.png",
+    // "../asset/Let's_play.png",
+    let_play,
 
     function (texture2) {
       var planeMaterial2 = new THREE.MeshBasicMaterial({
@@ -172,7 +194,8 @@ function firstVisitAgain() {
           plane2.visible = false;
 
           // Comment audio only for testing purpose
-          playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
+          // playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
+          playAudio(Audio1)
           // btndisable = false
 
           // console.log("insOneLoad inside Function", insOneLoad);
@@ -374,7 +397,8 @@ function homePageHandler() {
   // openFullscreen()
   // playAudio("../Sounds/HomePage_sounds/GL_A_1.mp3")
   // playAudio("../Sounds/Global_Music/GL_A_5_Home.mp3")
-  playAudio("../Sounds/Global_Music/GL_A_17.mp3")
+  // playAudio("../Sounds/Global_Music/GL_A_17.mp3") // Active- working
+  playAudio(Audio_GL_17)
 
   //  ------------------------  Working  --------------------------
   // Inner Function Change Image onClick         
@@ -384,7 +408,8 @@ function homePageHandler() {
     // "../asset/Let's_play.png",
     // "../asset/logo/Play again.png",
     // "../asset/logo/Continue game.png",
-    "../asset/logo/Continue_Green.png",
+    // "../asset/logo/Continue_Green.png",
+    ContinueBtnImg,
 
     function (texture) {
       var planeMaterial = new THREE.MeshBasicMaterial({
@@ -531,7 +556,8 @@ function homePageHandler() {
     //    "../asset/logo/Play the next level.png",
     // "../asset/logo/Pick new game.png",
     // "../asset/logo/Pick_New_Game_Blue.png",
-    "../asset/logo/Play the next level.png",
+    // "../asset/logo/Play the next level.png",
+    playNextBtn,
 
     function (textureintroMoreRHS) {
       var planeMaterialintroMoreRHS = new THREE.MeshBasicMaterial({
