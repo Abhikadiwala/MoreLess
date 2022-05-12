@@ -330,10 +330,12 @@ function playNextRed(path) {
       // if (localStorage.getItem('level2_Pre') == true) {
       if (islevel1PreSkip == false && islevel2PreSkip == false && islevel3PreSkip == false) {
         console.log("Go to Level1 Pre")
-        window.location.replace(`/level1_Pre.html`); // Testing
+        // window.location.replace(`/level1_Pre.html`); // Testing
+        window.location.replace(`level1_Pre.html`); // Testing
       } else {
         console.log("Go to Level1")
-        window.location.replace(`/level1.html`); // Testing
+        // window.location.replace(`/level1.html`); // Testing
+        window.location.replace(`level1.html`); // Testing
       }
       break;
 
@@ -343,10 +345,10 @@ function playNextRed(path) {
       // if (localStorage.getItem('level2_Pre') == true) {
       if (islevel1PreSkip == true && islevel2PreSkip == false && islevel3PreSkip == false) {
         console.log("Go to Level2 Pre")
-        window.location.replace(`/level2_Pre.html`); // Testing
+        window.location.replace(`level2_Pre.html`); // Testing
       } else {
         console.log("Go to Level2")
-        window.location.replace(`/level2.html`); // Testing
+        window.location.replace(`level2.html`); // Testing
       }
       break;
 
@@ -355,10 +357,10 @@ function playNextRed(path) {
       // Check is Presentation is complete or not
       if (islevel1PreSkip == true && islevel2PreSkip == true && islevel3PreSkip == false) {
         console.log("Go to Level3 Pre")
-        window.location.replace(`/level3_Pre.html`); // Testing
+        window.location.replace(`level3_Pre.html`); // Testing
       } else {
         console.log("Go to Level3")
-        window.location.replace(`/level3.html`); // Testing
+        window.location.replace(`level3.html`); // Testing
       }
 
       break;
@@ -368,10 +370,10 @@ function playNextRed(path) {
       // Check is Presentation is complete or not
       if (islevel1PreSkip == true && islevel2PreSkip == true && islevel3PreSkip == true) {
         console.log("Go to Level4 Pre")
-        window.location.replace(`/level4_Pre.html`); // Testing
+        window.location.replace(`level4_Pre.html`); // Testing
       } else {
         console.log("Go to Level4")
-        window.location.replace(`/level4.html`); // Testing
+        window.location.replace(`level4.html`); // Testing
       }
 
       break;

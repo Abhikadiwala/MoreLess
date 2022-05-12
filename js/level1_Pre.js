@@ -589,8 +589,9 @@ var Audio1 = 'Sounds/level1_sounds/ML_A_L1_1.mp3'
 var Audio2 = 'Sounds/level1_sounds/ML_A_L1_2.mp3'
 var Audio3 = 'Sounds/level1_sounds/ML_A_L1_3.mp3'
 var Audio4 = 'Sounds/level1_sounds/ML_A_L1_4.mp3'
-var Audio5 = 'Sounds/level1_sounds/ML_A_L1_5.mp3'
-var Audio6 = 'Sounds/level1_sounds/ML_A_L1_6.mp3'
+// var Audio5 = 'Sounds/level1_sounds/ML_A_L1_5.mp3'
+var Audio5 = 'Sounds/level1_sounds/ML_A_L0_5.mp3'
+var Audio6 = 'Sounds/level1_sounds/ML_A_L0_6.mp3'
 var Audio7 = 'Sounds/level1_sounds/ML_A_L1_7.mp3'
 var Audio8 = 'Sounds/level1_sounds/ML_A_L1_8.mp3'
 
@@ -1287,9 +1288,10 @@ function headerHome() {
                 if (currentPath == `${endPoint}/level1_Pre.html`) {
                     console.log("Redirect New Page");
                     console.log("endPoint", endPoint);
-                    location.href = '/homePopup.html'
+                    // location.href = 'homePopup.html'
+                    location.href = 'homePopup.html'
                 } else {
-                    location.href = '/homePopup.html'
+                    location.href = 'homePopup.html'
                 }
 
                 // Redirect to new page onClick - not working
@@ -1351,14 +1353,14 @@ function headerBack() {
                     // location.href = "/level1_Pre.html"
                     // window.location.replace(`${endPoint}/level1_Pre.html`); // Active
                     // window.location.replace(`${endPoint}/index.html`); // Active path change
-                    window.location.replace(`/level0.html`); // Active
+                    window.location.replace(`level0.html`); // Active
                     // window.location.replace(`${endPoint}/level1Testing.html`); // Testing
 
                 } else {
                     // location.href = "/level1_Pre.html"
                     // window.location.replace(`${endPoint}/level1_Pre.html`);  // Active
                     // window.location.replace(`${endPoint}/index.html`); // Active path change
-                    window.location.replace(`/level0.html`);  // Active
+                    window.location.replace(`level0.html`);  // Active
                     // window.location.replace(`${endPoint}/level1Testing.html`); // Testing
 
                 }
@@ -1597,9 +1599,9 @@ function headerHint() {
                     if (currentPath == `${endPoint}/level1_Pre.html`) {
                         console.log("Redirect New Page");
                         console.log("endPoint", endPoint);
-                        location.href = '/level1_Pre.html'
+                        location.href = 'level1_Pre.html'
                     } else {
-                        location.href = '/level1_Pre.html'
+                        location.href = 'level1_Pre.html'
                     }
                 })
             }
