@@ -3,6 +3,7 @@
 // import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/loaders/GLTFLoader.js";
 console.log("Level 0 Working");
 console.log("New 12/05")
+console.log("Track record Home Btn Update")
 
 
 // On Reload Page
@@ -1413,7 +1414,8 @@ function headerHome() {
                 // domEventsLHS.userData = { URL: "http://stackoverflow.com" };
                 // window.location.href = '/homePopup.html';
 
-                var currentPath = `${endPoint}/index.html`
+                // var currentPath = `${endPoint}/index.html` // active
+                var currentPath = `index.html`
 
                 if (currentPath == `${endPoint}/index.html`) {
                     console.log("Redirect New Page");
@@ -1423,7 +1425,8 @@ function headerHome() {
                     window.location.replace(`${endPoint}/homeIndex.html`);
                 } else {
                     // document.location.href = '/homePopup.html'
-                    window.location.replace(`${endPoint}/homeIndex.html`);
+                    // window.location.replace(`${endPoint}/homeIndex.html`);
+                    window.location.replace(`homeIndex.html`);
                 }
 
                 // Redirect to new page onClick - not working
