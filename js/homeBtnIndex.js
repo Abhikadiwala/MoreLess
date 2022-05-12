@@ -356,21 +356,38 @@ var nextAudio = false;  // For Next audio Approval default (false)
 
 //  ---------------------------------------------------------------------------------
 // Images Global
-var Continue_Green = "../asset/logo/Continue_Green.png"
+// var Continue_Green = "../asset/logo/Continue_Green.png"
+var Continue_Green = "asset/logo/Continue_Green.png"
 // var playNextLevel = ""
-var PickupNewGame = "../asset/logo/Pick_New_Game_Blue.png"
+// var PickupNewGame = "../asset/logo/Pick_New_Game_Blue.png"
+var PickupNewGame = "asset/logo/Pick_New_Game_Blue.png"
 
 //  ---------------------------------------------------------------------------------
 // Audios 
 // var GL_A_5 = "../Sounds/Global_Music/GL_A_5_Home.mp3"
 // var GL_A_19 = ""
 
+// var BGImg = "../asset/BackgroundL0.png" 
+var BGImg = "asset/BackgroundL0.png" 
+
+var let_btn = "asset/Let's_play.png"
+// --------------------------------------------------------------------------------------
+
+
+// All Audios
+// --------------------------------------------------------------------------------------
+// var Audio1 = '../Sounds/level0_sounds/ML_A_L0_1.mp3'
+var Audio1 = 'Sounds/level0_sounds/ML_A_L0_1.mp3'
+var Audio_GL_5 = "Sounds/Global_Music/GL_A_5_Home.mp3"
+// --------------------------------------------------------------------------------------
+
 
 //  ---------------------------------------------------------------------------------
 //Load Background Image
 const loadImg = new THREE.TextureLoader();  // For Backgroud Image
     loadImg.load(
-    "../asset/BackgroundL0.png",
+    // "../asset/BackgroundL0.png",
+        BGImg,
 
         function (texture) {
             var planeMaterial = new THREE.MeshBasicMaterial({
@@ -421,7 +438,8 @@ function firstVisitAgain(){
     // Load Image here Start Button 
     const loadImg2 = new THREE.TextureLoader();
         loadImg2.load(
-        "../asset/Let's_play.png",
+        // "../asset/Let's_play.png",
+        let_play,
 
             function (texture2) {
                 var planeMaterial2 = new THREE.MeshBasicMaterial({
@@ -462,7 +480,8 @@ function firstVisitAgain(){
                             plane2.visible = false;
                             
                             // Comment audio only for testing purpose
-                            playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
+                            // playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
+                            playAudio(Audio1)
                             // btndisable = false
 
                             // console.log("insOneLoad inside Function", insOneLoad);
@@ -568,7 +587,6 @@ function playAudio(path){
 }
 
 
-
 function homePageHandler(path) {
     // console.log("planerecogEqualLHS Status:- ", planerecogEqualLHS.visible);
     // Audio Indicating Equal
@@ -576,7 +594,8 @@ function homePageHandler(path) {
     // openFullscreen()
     // playAudio("../Sounds/HomePage_sounds/GL_A_1.mp3")
     // playAudio("../Sounds/Global_Music/GL_A_5_Home.mp3") // Active
-    playAudio("../Sounds/Global_Music/GL_A_5_Home.mp3") // gl_a_5 audio
+    // playAudio("../Sounds/Global_Music/GL_A_5_Home.mp3") // gl_a_5 audio
+    playAudio(Audio_GL_5) // gl_a_5 audio
 
     
     //  ------------------------  Working  --------------------------
@@ -627,11 +646,14 @@ function homePageHandler(path) {
                         // console.log(Number(lastLevel))
                         // console.log(typeof (lastLevel))
                         // window.location.replace(`/level4.html`); // Testing
-                        window.location.replace(`${endPoint}/level4.html`); // Testing
+                        // window.location.replace(`${endPoint}/level4.html`); // working
+                        window.location.replace(`level4.html`); // Testing
                     }else{
                         
                         // history.back()   // Send back to last location Page // Working
-                        window.location.replace(`${endPoint}/index.html`);
+                        // window.location.replace(`${endPoint}/index.html`); // path change
+                        // window.location.replace(`${endPoint}/level0.html`);
+                        window.location.replace(`level0.html`);
                     }
 
 

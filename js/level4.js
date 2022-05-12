@@ -5529,7 +5529,8 @@ function skiplevelBtn() {
         // window.location.href = '/level1.html'
         // localStorage.setItem('level1_Pre', true)
         // window.location.replace(`/homePopup.html`); // Testing
-        window.location.replace(`${endPoint}/homeIndex.html`); // testing
+        // window.location.replace(`${endPoint}/homeIndex.html`); // testing- path change
+        window.location.replace(`homeIndex.html`); // testing
 
         // S1LHS = ""
         // S1RHS = ""

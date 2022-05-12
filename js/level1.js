@@ -1694,7 +1694,8 @@ function headerBack() {
           console.log("endPoint", endPoint);
           // document.location.href = '/level1.html'
           // window.location.replace(`${endPoint}/level1.html`); // Active
-          window.location.replace(`${endPoint}/index.html`);
+          // window.location.replace(`${endPoint}/index.html`); // path change
+          window.location.replace(`level0.html`); // path change
           // window.location.replace(`/level1Testing.html`);  // Testing
 
 
@@ -1702,7 +1703,8 @@ function headerBack() {
           // location.href = '/level1.html'
           // document.location.href = '/level1.html'
           // window.location.replace(`${endPoint}/level1.html`); // Active
-          window.location.replace(`${endPoint}/index.html`);
+          // window.location.replace(`${endPoint}/index.html`); // path change
+          window.location.replace(`level0.html`); // path change
           // window.location.replace(`/level1Testing.html`);  // Testing
 
 

@@ -1,0 +1,10 @@
+changes on 12-05-2022
+
+1. Rename indexMain js and Html file ---------> index.js and index.html
+2. Rename index js and Html file -------------> level0.js and level0.html
+3. change reflect on every part where it is used
+
+
+Path changes of indexMain.html and indexMain.js
+
+1. indexMain.html which is now index.html
