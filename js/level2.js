@@ -1089,9 +1089,9 @@ function headerHome() {
         if (currentPath == `${endPoint}/level2.html`) {
           console.log("Redirect New Page");
           console.log("endPoint", endPoint);
-          location.href = '/homePopup.html'
+          location.href = 'homePopup.html'
         } else {
-          location.href = '/homePopup.html'
+          location.href = 'homePopup.html'
         }
 
         // Redirect to new page onClick - not working
@@ -1178,11 +1178,11 @@ function headerBack() {
           console.log("Redirect New Page");
           console.log("endPoint", endPoint);
           // location.href = '/level1.html'
-          window.location.replace(`/level1.html`);  // Active
+          window.location.replace(`level1.html`);  // Active
           // window.location.replace(`/level1Testing.html`);  // Testing
         } else {
           // location.href = '/level1.html'
-          window.location.replace(`/level1.html`); // Active
+          window.location.replace(`level1.html`); // Active
           // window.location.replace(`/level1Testing.html`);  // Testing
         }
 
@@ -1397,10 +1397,10 @@ function headerHint() {
           console.log("Redirect New Page");
           console.log("endPoint", endPoint);
           // location.href = '/level2_Pre.html'
-          window.location.replace(`/level2_Pre.html`);
+          window.location.replace(`level2_Pre.html`);
         } else {
           // location.href = '/level2_Pre.html'
-          window.location.replace(`/level2_Pre.html`);
+          window.location.replace(`level2_Pre.html`);
         }
 
       })
