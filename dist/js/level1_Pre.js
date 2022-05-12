@@ -1344,13 +1344,15 @@ function headerBack() {
                     console.log("endPoint", endPoint);
                     // location.href = "/level1_Pre.html"
                     // window.location.replace(`${endPoint}/level1_Pre.html`); // Active
-                    window.location.replace(`${endPoint}/index.html`); // Active
+                    // window.location.replace(`${endPoint}/index.html`); // Active path change
+                    window.location.replace(`level0.html`); // Active
                     // window.location.replace(`${endPoint}/level1Testing.html`); // Testing
 
                 } else {
                     // location.href = "/level1_Pre.html"
                     // window.location.replace(`${endPoint}/level1_Pre.html`);  // Active
-                    window.location.replace(`${endPoint}/index.html`);  // Active
+                    // window.location.replace(`${endPoint}/index.html`); // Active path change
+                    window.location.replace(`level0.html`);  // Active
                     // window.location.replace(`${endPoint}/level1Testing.html`); // Testing
 
                 }

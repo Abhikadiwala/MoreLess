@@ -432,18 +432,22 @@ function homePageHandler() {
           // console.log(typeof (lastLevel))
           // console.log(Number(lastLevel))
           // console.log(typeof (lastLevel))
-          window.location.replace(`/index.html`); // Testing
+          // window.location.replace(`/index.html`); // Testing -- path change
+          window.location.replace(`/level0.html`); // Testing
         } else if (lastLevel == 1) {
           console.log("go to level1");
           // console.log(typeof (lastLevel))
           // console.log(Number(lastLevel))
           // console.log(typeof (lastLevel))
+          // window.location.replace(`/level1.html`); // Testing
           window.location.replace(`/level1.html`); // Testing
         } else if (lastLevel == 2) {
           console.log("go to level2");
+          // window.location.replace(`/level2.html`); // Testing
           window.location.replace(`/level2.html`); // Testing
         } else if (lastLevel == 3) {
           console.log("go to level3");
+          // window.location.replace(`/level3.html`); // Testing
           window.location.replace(`/level3.html`); // Testing
         }
 
