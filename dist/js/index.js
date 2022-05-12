@@ -2,7 +2,7 @@
 // import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.124/examples/jsm/controls/OrbitControls.js';
 // import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/loaders/GLTFLoader.js";
 console.log("Level 0 Working");
-console.log("New 10/05")
+console.log("New 12/05")
 
 
 // On Reload Page
@@ -55,6 +55,8 @@ var setItemLocal = localStorage.setItem('level4', false)
 // // Loader When Page is Load
 // window.onload = function () { document.getElementById("loading").style.display = "none" }
 
+// Server Endpoint
+var endPointserver = "https://abhikadiwala.github.io/kreedogame.github.io"
 
 // Fetch EndPoint of URL
 console.log("Host", location.host);
@@ -271,12 +273,14 @@ window.addEventListener('resize', Resize)
 // //  ------------------------------------------------------------------------------
 
 
-// varible For Global Size
-// PXPosLHS = 
+// level 0 Backgroud Image
+// var l0Backgroud = `${endPointserver}/asset/BackgroundL0.png`
+var l0Backgroud = `asset/BackgroundL0.png`
 
 const loadImg = new THREE.TextureLoader();
 loadImg.load(
-    "../asset/BackgroundL0.png",
+    // "../asset/BackgroundL0.png",
+    l0Backgroud,
 
     function (texture) {
         var planeMaterial = new THREE.MeshBasicMaterial({
@@ -558,59 +562,100 @@ document.addEventListener("visibilitychange", function () {
 }, false);
 
 // Image
-var ins1 = "../asset/Instructor_L0_1.png"
-var ins2 = "../asset/Instructor_L0_2.png"
+// var ins1 = "../asset/Instructor_L0_1.png"
+// var ins1 = `${endPointserver}/asset/Instructor_L0_1.png`
+var ins1 = `asset/Instructor_L0_1.png`
+var ins2 = `asset/Instructor_L0_2.png`
 
-var shand = "../asset/hand_img.png"
+var shand = `asset/hand_img.png`
 
-var play_again = "../asset/logo/Play again.png"
-var play_next = "../asset/logo/Play the next level.png"
-var play_game = "../asset/logo/Play game.png"
+var play_again = `asset/logo/Play again.png`
+var play_next = `asset/logo/Play the next level.png`
+var play_game = `asset/logo/Play game.png`
 
 // var rewardImg = "../asset/logo/Rewards 0.png"
-var rewardImg = "../asset/logo/Rewards.png"
+var rewardImg = "asset/logo/Rewards.png"
 
 // Skip Button 
-var skipBtn = "../asset/logo/Skip.png"
+var skipBtn = "asset/logo/Skip.png"
+
+
+// Let's play btn
+// var let_btn = `${endPointserver}/asset/Let's_play.png` // Active
+var let_btn = `asset/Let's_play.png`
 
 // Slides
 // intro more
-var s1sound = "../Sounds/level0_sounds/ML_A_L0_4.mp3"
-var s1lhs = "../asset/new_image_assets/game element-10.png"
+var s1sound = "Sounds/level0_sounds/ML_A_L0_4.mp3"
+var s1lhs = "asset/new_image_assets/game element-10.png"
 
-var s1rhs = "../asset/new_image_assets/game element-03.png"
+var s1rhs = "asset/new_image_assets/game element-03.png"
 
 // intro less
-var s2sound = "../Sounds/level0_sounds/ML_A_L0_5.mp3"
-var s2lhs = "../asset/new_image_assets/game element-08.png"
-var s2rhs = "../asset/new_image_assets/game element-02.png"
+var s2sound = "Sounds/level0_sounds/ML_A_L0_5.mp3"
+var s2lhs = "asset/new_image_assets/game element-08.png"
+var s2rhs = "asset/new_image_assets/game element-02.png"
 
 // intro equal
-var s3equal = "../asset/new_image_assets/game element-05.png"
-var s3sound = "../Sounds/level0_sounds/ML_A_L0_6.mp3"
+var s3equal = "asset/new_image_assets/game element-05.png"
+var s3sound = "Sounds/level0_sounds/ML_A_L0_6.mp3"
 
 // recog more
-var s4lhs = "../asset/new_image_assets/game element-08.png"
-var s4rhs = "../asset/new_image_assets/game element-02.png"
-var s4sound = "../Sounds/level0_sounds/ML_A_L0_8.mp3"
+var s4lhs = "asset/new_image_assets/game element-08.png"
+var s4rhs = "asset/new_image_assets/game element-02.png"
+var s4sound = "Sounds/level0_sounds/ML_A_L0_8.mp3"
 
 // recog less         
-var s5lhs = "../asset/new_image_assets/game element-03.png"
-var s5rhs = "../asset/new_image_assets/game element-07.png"
-var s5sound = "../Sounds/level0_sounds/ML_A_L0_9.mp3"
+var s5lhs = "asset/new_image_assets/game element-03.png"
+var s5rhs = "asset/new_image_assets/game element-07.png"
+var s5sound = "Sounds/level0_sounds/ML_A_L0_9.mp3"
 // recog equal
-var s6img = "../asset/new_image_assets/game element-04.png"
-var s6sound = "../Sounds/level0_sounds/ML_A_L0_10.mp3"
+var s6img = "asset/new_image_assets/game element-04.png"
+var s6sound = "Sounds/level0_sounds/ML_A_L0_10.mp3"
 
 // Level0 Complete Sound
 // Level 0 Complete Sound
-var L0ComSound = "../Sounds/Global_Music/GL_A_8_L0_Complete.mp3"
+var L0ComSound = "Sounds/Global_Music/GL_A_8_L0_Complete.mp3"
 
 
 // Success and Error Borders are here for add in cache
 // Error Images
-var ErrorBorder = "../asset/level_one_assets/Incorrect answer highlight.png"
-var SuccessBorder = "../asset/level_one_assets/Correct answer highlight.png"
+var ErrorBorder = "asset/level_one_assets/Incorrect answer highlight.png"
+var SuccessBorder = "asset/level_one_assets/Correct answer highlight.png"
+
+
+// Backgroud Sound
+// var bgSound = `../Sounds/level0_sounds/backgroud_music_free.mp3`
+var bgSound = `${endPointserver}/Sounds/level0_sounds/backgroud_music_free.mp3`
+
+// Navbar images 
+var HomeBtn = `asset/logo/Home.png`
+var BackBtn = `asset/logo/Back_Inactive.png`
+var ProgressbarBtn = `asset/Progress_bar/Progress bar_Type_1.png`
+var MusicBtn = `asset/logo/Music.png`
+var MusicMuteBtn = `asset/logo/Music_Mute.png`
+var HintBtn = `asset/logo/Hint_Inactive.png`
+// var RewardBtn = `${endPoint}/`
+
+
+var WhiteBox = `asset/Image place holder.png`
+
+
+// -----------------------------------------------------------------------------------
+// All sounds Lists
+
+// var Audio1 = `../Sounds/level0_sounds/ML_A_L0_1.mp3`
+var Audio1 = `Sounds/level0_sounds/ML_A_L0_1.mp3`
+var Audio2 = `Sounds/level0_sounds/ML_A_L0_2.mp3`
+var Audio3 = `Sounds/level0_sounds/ML_A_L0_3.mp3`
+var Audio4 = `Sounds/level0_sounds/ML_A_L0_4.mp3`
+var Audio5 = `Sounds/level0_sounds/ML_A_L0_5.mp3`
+var Audio6 = `Sounds/level0_sounds/ML_A_L0_6.mp3`
+var Audio7 = `Sounds/level0_sounds/ML_A_L0_7.mp3`
+var Audio8 = `Sounds/level0_sounds/ML_A_L0_8.mp3`
+var Audio9 = `Sounds/level0_sounds/ML_A_L0_9.mp3`
+var Audio10 = `Sounds/level0_sounds/ML_A_L0_10.mp3`
+// -----------------------------------------------------------------------------------
 
 // Controls - access OrbitControls
 // const controls = new OrbitControls( camera, renderer.domElement);
@@ -827,7 +872,8 @@ function firstVisit() {
     loadImg.load(
         // "../asset/Let's_play.png",
         // "../asset/Let's_play.png",
-        "asset/Let's_play.png",
+        // "asset/Let's_play.png",
+        let_btn,
 
         function (texture) {
             var planeMaterial = new THREE.MeshBasicMaterial({
@@ -890,7 +936,8 @@ function firstVisit() {
 
                     // plane.visible = false
                 })
-                soundBG('../Sounds/level0_sounds/backgroud_music_free.mp3')
+                // soundBG('../Sounds/level0_sounds/backgroud_music_free.mp3')
+                soundBG(bgSound)
                 if (audioPlayed == true) {
                     // checkBGAudio()
                     init();     // call Main Function
@@ -898,7 +945,8 @@ function firstVisit() {
                     plane.visible = false;
 
                     // Comment audio only for testing purpose
-                    playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
+                    // playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
+                    playAudio(Audio1)
                     // btndisable = false
 
                     // console.log("insOneLoad inside Function", insOneLoad);
@@ -948,7 +996,8 @@ function firstVisitAgain() {
     // Load Image here Start Button 
     const loadImg2 = new THREE.TextureLoader();
     loadImg2.load(
-        "../asset/Let's_play.png",
+        // "../asset/Let's_play.png",
+        let_btn,
 
         function (texture2) {
             var planeMaterial2 = new THREE.MeshBasicMaterial({
@@ -1152,16 +1201,18 @@ function playAudio(path) {
             sound.source.onended = function () {
 
                 switch (path) {
-                    case '../Sounds/level0_sounds/ML_A_L0_1.mp3':
+                    // case '../Sounds/level0_sounds/ML_A_L0_1.mp3':
+                    case Audio1:
                         // console.log("first end");
                         presentationTwo()
-                        playAudio("../Sounds/level0_sounds/ML_A_L0_2.mp3")
+                        // playAudio("../Sounds/level0_sounds/ML_A_L0_2.mp3")
+                        playAudio(Audio2)
 
                         // insTwoLoad = false
                         // console.log("insTwoLoad in switch", insTwoLoad);
                         break;
 
-                    case '../Sounds/level0_sounds/ML_A_L0_2.mp3':
+                    case Audio2:
                         // console.log("Second end");
                         // insTwoLoad = false
                         // ins2Hide = true
@@ -1170,7 +1221,7 @@ function playAudio(path) {
                         }, 200);
                         // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
                         break;
-                    case '../Sounds/level0_sounds/ML_A_L0_4.mp3':
+                    case Audio4:
                         // console.log("Third end");
                         // insTwoLoad = false
                         // ins2Hide = true
@@ -1179,7 +1230,7 @@ function playAudio(path) {
                         }, 200);
                         // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
                         break;
-                    case '../Sounds/level0_sounds/ML_A_L0_5.mp3':
+                    case Audio5:
                         // console.log("Fourth end");
                         // insTwoLoad = false
                         // ins2Hide = true
@@ -1189,15 +1240,15 @@ function playAudio(path) {
                         }, 200);
                         // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
                         break;
-                    case '../Sounds/level0_sounds/ML_A_L0_6.mp3':
+                    case Audio6:
                         // console.log("Fifth end");
-                        playAudio("../Sounds/level0_sounds/ML_A_L0_7.mp3")
+                        playAudio(Audio7)
                         // insTwoLoad = false
                         // ins2Hide = true
                         // recogMore()
                         // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
                         break;
-                    case '../Sounds/level0_sounds/ML_A_L0_7.mp3':
+                    case Audio7:
                         // console.log("sixth end");
                         // insTwoLoad = false
                         // ins2Hide = true
@@ -1207,7 +1258,7 @@ function playAudio(path) {
                         }, 200);
                         // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
                         break;
-                    case '../Sounds/level0_sounds/ML_A_L0_8.mp3':
+                    case Audio8:
                         // console.log("seventh end");
                         // insTwoLoad = false
                         // ins2Hide = true
@@ -1217,7 +1268,7 @@ function playAudio(path) {
                         }, 200);
                         // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
                         break;
-                    case '../Sounds/level0_sounds/ML_A_L0_9.mp3':
+                    case Audio9:
                         // console.log("Egighth end");
                         // insTwoLoad = false
                         // ins2Hide = true
@@ -1227,7 +1278,8 @@ function playAudio(path) {
                         }, 200);
                         // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
                         break;
-                    case '../Sounds/level0_sounds/ML_A_L0_10.mp3':
+                    // case '../Sounds/level0_sounds/ML_A_L0_10.mp3':
+                    case Audio10:
                         // console.log("Nineth end");
                         // insTwoLoad = false
                         // ins2Hide = true
@@ -1240,7 +1292,6 @@ function playAudio(path) {
                         break;
 
                     default:
-
                         break;
                 }
                 console.log('sound ended');
@@ -1324,7 +1375,8 @@ function headerHome() {
     const hHome = new THREE.TextureLoader();
     hHome.load(
         // Load Home Image
-        "../asset/logo/Home.png",
+        // "../asset/logo/Home.png",
+        HomeBtn,
 
         function (textureHome) {
             var planeMaterialHome = new THREE.MeshBasicMaterial({
@@ -1425,7 +1477,8 @@ function headerBack() {
     const hBack = new THREE.TextureLoader();
     hBack.load(
         // Load Back_inActive Image
-        "../asset/logo/Back_Inactive.png",
+        // "../asset/logo/Back_Inactive.png",
+        BackBtn,
 
         function (textureBack) {
             var planeMaterialBack = new THREE.MeshBasicMaterial({
@@ -1462,7 +1515,8 @@ function headerProgress() {
     const hProgress = new THREE.TextureLoader();
     hProgress.load(
         // Load Back_inActive Image
-        "../asset/Progress_bar/Progress bar_Type_1.png",
+        // "../asset/Progress_bar/Progress bar_Type_1.png",
+        ProgressbarBtn,
 
         function (textureProgress) {
             var planeMaterialProgress = new THREE.MeshBasicMaterial({
@@ -1610,7 +1664,8 @@ function toggelMusic() {
         const hSoundOn = new THREE.TextureLoader();
         hSoundOn.load(
             // Load Music Image
-            "../asset/logo/Music_Mute.png",
+            // "../asset/logo/Music_Mute.png",
+            MusicMuteBtn,
 
 
             function (textureSound) {
@@ -1644,7 +1699,8 @@ function toggelMusic() {
         const hSoundOn = new THREE.TextureLoader();
         hSoundOn.load(
             // Load Music Image
-            "../asset/logo/Music.png",
+            // "../asset/logo/Music.png",
+            MusicBtn,
 
 
             function (textureSound) {
@@ -1702,7 +1758,8 @@ function headerHint() {
     const hHint = new THREE.TextureLoader();
     hHint.load(
         // Load Hint_Inactive Image
-        "../asset/logo/Hint_Inactive.png",
+        // "../asset/logo/Hint_Inactive.png",
+        HintBtn,
 
         function (textureHint) {
             var planeMaterialHint = new THREE.MeshBasicMaterial({
@@ -3467,7 +3524,8 @@ function init() {
         headerHome()
         headerBack()
         headerProgress()
-        headerSound('../asset/logo/Music.png')
+        // headerSound('../asset/logo/Music.png')
+        headerSound(MusicBtn)
         // headerSound()
         // toggelMusic()
 
@@ -3484,8 +3542,9 @@ function init() {
     const loadLHSImg = new THREE.TextureLoader();
     loadLHSImg.load(
         // "../asset/test.jpeg",
-        "../asset/Image place holder.png",
+        // "../asset/Image place holder.png",
         // "../asset/Set.png",
+        WhiteBox,
 
         function (textureLHS) {
             var planeMaterialLHS = new THREE.MeshBasicMaterial({
@@ -3574,8 +3633,9 @@ function init() {
     // Load RHS Image Here
     const loadRHSImg = new THREE.TextureLoader();
     loadRHSImg.load(
-        "../asset/Image place holder.png",
+        // "../asset/Image place holder.png",
         // "../asset/test.jpeg",
+        WhiteBox,
 
         function (textureRHS) {
             // console.log("LHS Function Executed");
