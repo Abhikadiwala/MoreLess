@@ -590,10 +590,10 @@ var Audio2 = 'Sounds/level1_sounds/ML_A_L1_2.mp3'
 var Audio3 = 'Sounds/level1_sounds/ML_A_L1_3.mp3'
 var Audio4 = 'Sounds/level1_sounds/ML_A_L1_4.mp3'
 // var Audio5 = 'Sounds/level1_sounds/ML_A_L1_5.mp3'
-var Audio5 = 'Sounds/level1_sounds/ML_A_L0_5.mp3'
-var Audio6 = 'Sounds/level1_sounds/ML_A_L0_6.mp3'
-var Audio7 = 'Sounds/level1_sounds/ML_A_L1_7.mp3'
-var Audio8 = 'Sounds/level1_sounds/ML_A_L1_8.mp3'
+var Audio5 = 'Sounds/level0_sounds/ML_A_L0_5.mp3'
+var Audio6 = 'Sounds/level0_sounds/ML_A_L0_6.mp3'
+// var Audio7 = 'Sounds/level1_sounds/ML_A_L1_7.mp3'
+// var Audio8 = 'Sounds/level1_sounds/ML_A_L1_8.mp3'
 
 var AudioReplyDef = 'Sounds/Global_Music/GL_A_19.mp3'
 
@@ -3249,10 +3249,10 @@ function l1PS6_Skip() {
                     console.log("endPoint", endPoint);
                     // location.href = '/level1.html'
                     // window.location.replace(`${endPoint}/level1.html`); // active
-                    window.location.replace(`/level1.html`); // active
+                    window.location.replace(`level1.html`); // active
                 } else {
                     // location.href = '/level1.html'
-                    window.location.replace(`/level1.html`);
+                    window.location.replace(`level1.html`);
                 }
 
             }, false)
