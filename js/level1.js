@@ -5737,12 +5737,12 @@ function skiplevelBtn() {
           // document.location.href = '/level2_Pre.html'
           // window.location.replace(`${endPoint}/level2_Pre.html`);
           // window.location.replace(`/level2_Pre.html`); // Working
-          window.location.replace(`/skipBtnPage.html`); // Testing
+          window.location.replace(`skipBtnPage.html`); // Testing
 
         } else {
           // document.location.href = '/level2.html'
           // window.location.replace(`/level2.html`); // Working
-          window.location.replace(`/skipBtnPage.html`); // Testing
+          window.location.replace(`skipBtnPage.html`); // Testing
 
         }
 
