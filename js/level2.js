@@ -248,24 +248,25 @@ window.addEventListener('resize', Resize)
 // -------------------------- All The Images Of This Level Declare Here ---------------------------------
 
 // NavBar Buttons
-var homeBtn = "../asset/logo/Home.png"
-var backBtn = "../asset/logo/Back.png"
+var homeBtn = "asset/logo/Home.png"
+// var homeBtn = "../asset/logo/Home.png"
+var backBtn = "asset/logo/Back.png"
 
 // var bgMusicBtn = 
-var hintBtnActive = "../asset/logo/Hint.png"
-var hintBtnInactive = "../asset/logo/Hint_Inactive.png"
+var hintBtnActive = "asset/logo/Hint.png"
+var hintBtnInactive = "asset/logo/Hint_Inactive.png"
 
 // var RewardImg = "../asset/logo/Rewards.png"
 // var RewardStartImg = "../asset/logo/Rewards 10.png"   // Level 4 Start Reward
-var RewardStartImg = "../asset/logo/Rewards.png"   // Level 4 Start Reward
-var RewardEndImg = "../asset/logo/Rewards 20.png"   // Level 4 End Reward
+var RewardStartImg = "asset/logo/Rewards.png"   // Level 4 Start Reward
+var RewardEndImg = "asset/logo/Rewards 20.png"   // Level 4 End Reward
 
-var SoundImgMute = "../asset/logo/Music_Mute.png"
-var SoundImgUnMute = "../asset/logo/Music.png"
+var SoundImgMute = "asset/logo/Music_Mute.png"
+var SoundImgUnMute = "asset/logo/Music.png"
 
 // var bgImg = "../asset/level_one_assets/Backgound.png"   // BackGroud Image
-var bgImg = "../asset/level_two_assets/Backgound.png"   // BackGroud L2 Image
-var letsPlay = "../asset/Let's_play.png"    // Let's Play Button
+var bgImg = "asset/level_two_assets/Backgound.png"   // BackGroud L2 Image
+var letsPlay = "asset/Let's_play.png"    // Let's Play Button
 
 // All Correct Ans Variables
 var S1Cor = false, S2Cor = false, S3Cor = false, S4Cor = false, S5Cor = false, S6Cor = false,
@@ -276,12 +277,12 @@ var S1Wro = false, S2Wro = false, S3Wro = false, S4Wro = false, S5Wro = false, S
   S7Wro = false, S8Wro = false, S9Wro = false, S10Wro = false
 
 // Level 1 Complete Slide Images
-var playAgain = "../asset/logo/Play again.png"
-var playNext = "../asset/logo/Play the next level.png"
+var playAgain = "asset/logo/Play again.png"
+var playNext = "asset/logo/Play the next level.png"
 
 // Error Images
-var ErrorBorder = "../asset/level_two_assets/Incorrectanswer highlight.png"
-var SuccessBorder = "../asset/level_two_assets/Correct answer highlight.png"
+var ErrorBorder = "asset/level_two_assets/Incorrectanswer highlight.png"
+var SuccessBorder = "asset/level_two_assets/Correct answer highlight.png"
 
 // Error Border For Level Complete
 // var ErrorBorderLCom = ""
@@ -289,88 +290,94 @@ var SuccessBorder = "../asset/level_two_assets/Correct answer highlight.png"
 // Level 1 Images
 // Load Place holder Image - white Box
 // var WhiteBox = "../asset/Image place holder.png"
-var WhiteBox = "../asset/level_two_assets/Image place holder.png"
+var WhiteBox = "asset/level_two_assets/Image place holder.png"
 
 // Slide-1 Images
 // var S1LHS = "../asset/level_one_assets/Image asset Lone/Set 1_2 blue shirts.png"    // 2 Blue Shirts
 
 // var S1LHS = "../asset/level_two_assets/image aseet Ltwo Updated/Set 1_10 red shirts.png"   // 10 Red Shirts
-var S1LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 1_2 red shirts.png"   // 2 Red Shirts
-var S1RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 1_10 red shirts.png"   // 10 Red Shirts
+var S1LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 1_2 red shirts.png"   // 2 Red Shirts
+var S1RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 1_10 red shirts.png"   // 10 Red Shirts
 
 // Slide-2 Images
-var S2LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 2_3 bottles.png"   // 3 bottle
-var S2RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 2_9 bottles.png"   // 9 bottlw
+var S2LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 2_3 bottles.png"   // 3 bottle
+var S2RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 2_9 bottles.png"   // 9 bottlw
 
 // Slide-3 Images
-var S3LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 3_2 chairs.png"   // 2 chair
-var S3RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 3_8 chairs.png"   // 8 chair
+var S3LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 3_2 chairs.png"   // 2 chair
+var S3RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 3_8 chairs.png"   // 8 chair
 
 // Slide-4 Images
-var S4LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 4_4 blue footballs.png"  // 4 FootBalls Blue
-var S4RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 4_8 blue footballs.png"  // 8 FootBalls Blue
+var S4LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 4_4 blue footballs.png"  // 4 FootBalls Blue
+var S4RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 4_8 blue footballs.png"  // 8 FootBalls Blue
 
 // Slide-5 Images
-var S5LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 5_5 pink balloons.png"  // 10 Balloons
-var S5RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 5_9 pink balloons.png"  // 5 Balloons
+var S5LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 5_5 pink balloons.png"  // 10 Balloons
+var S5RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 5_9 pink balloons.png"  // 5 Balloons
 
 // Slide-6 Images
-var S6LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 6_3 shorts.png"  // 3 Shorts
-var S6RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 6_8 shorts.png"  // 8 Shorts
+var S6LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 6_3 shorts.png"  // 3 Shorts
+var S6RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 6_8 shorts.png"  // 8 Shorts
 
 // Slide-7 Images
-var S7LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 7_6 socks.png"  // 6 socks
-var S7RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 7_8 socks.png"  // 8 socks
+var S7LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 7_6 socks.png"  // 6 socks
+var S7RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 7_8 socks.png"  // 8 socks
 
 // Slide-8 Images
-var S8LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 8_3 trousers.png"  // 3 Trousers
-var S8RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 8_5 trousers.png"  // 5 Trousers
+var S8LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 8_3 trousers.png"  // 3 Trousers
+var S8RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 8_5 trousers.png"  // 5 Trousers
 
 // Slide-9 Images
-var S9LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 9_4 white footballs.png"  // 4 white ball
-var S9RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 9_5 white footballs.png"  // 5 white ball
+var S9LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 9_4 white footballs.png"  // 4 white ball
+var S9RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 9_5 white footballs.png"  // 5 white ball
 
 // Slide-10 Images
-var S10LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 10_9 shoes.png"  // 9 Shoes
-var S10RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 10_10 shoes.png"  // 10 Shoes
+var S10LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 10_9 shoes.png"  // 9 Shoes
+var S10RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 10_10 shoes.png"  // 10 Shoes
 
 
 // Load ProgressBar Img
 // Main Image
 // var progressBarImg = "../asset/Progress_bar/Updated/Progress bar_Type_1 10.png"
-var progressBarImg = "../asset/Progress_bar/Updated/Progress bar_level2_start.png"
+var progressBarImg = "asset/Progress_bar/Updated/Progress bar_level2_start.png"
 
 // Audio Reply Btn Image
-var AudioReplyBtnImg = "../asset/logo/Audio_Replay.png"
+var AudioReplyBtnImg = "asset/logo/Audio_Replay.png"
+
+
+// var MusicMuteBtn = "asset/logo/Music_Mute.png"
+// var MusicBtn = "asset/logo/Music.png"
 
 
 // Change Image according to round
 // var l1PSDemo = "../asset/Progress_bar/Progress_Bar_Type2_element20.png" // Working
-var l2PS1 = "../asset/Progress_bar/Updated/Progress bar_Type_1 11.png"
-var l2PS2 = "../asset/Progress_bar/Updated/Progress bar_Type_1 12.png"
-var l2PS3 = "../asset/Progress_bar/Updated/Progress bar_Type_1 13.png"
-var l2PS4 = "../asset/Progress_bar/Updated/Progress bar_Type_1 14.png"
-var l2PS5 = "../asset/Progress_bar/Updated/Progress bar_Type_1 15.png"
-var l2PS6 = "../asset/Progress_bar/Updated/Progress bar_Type_1 16.png"
-var l2PS7 = "../asset/Progress_bar/Updated/Progress bar_Type_1 17.png"
-var l2PS8 = "../asset/Progress_bar/Updated/Progress bar_Type_1 18.png"
-var l2PS9 = "../asset/Progress_bar/Updated/Progress bar_Type_1 19.png"
-var l2PS10 = "../asset/Progress_bar/Updated/Progress bar_Type_1 20.png"
+var l2PS1 = "asset/Progress_bar/Updated/Progress bar_Type_1 11.png"
+var l2PS2 = "asset/Progress_bar/Updated/Progress bar_Type_1 12.png"
+var l2PS3 = "asset/Progress_bar/Updated/Progress bar_Type_1 13.png"
+var l2PS4 = "asset/Progress_bar/Updated/Progress bar_Type_1 14.png"
+var l2PS5 = "asset/Progress_bar/Updated/Progress bar_Type_1 15.png"
+var l2PS6 = "asset/Progress_bar/Updated/Progress bar_Type_1 16.png"
+var l2PS7 = "asset/Progress_bar/Updated/Progress bar_Type_1 17.png"
+var l2PS8 = "asset/Progress_bar/Updated/Progress bar_Type_1 18.png"
+var l2PS9 = "asset/Progress_bar/Updated/Progress bar_Type_1 19.png"
+var l2PS10 = "asset/Progress_bar/Updated/Progress bar_Type_1 20.png"
 
 // ---------------------- Global Sound -------------------
 // BackGround Sound
-var BGSound = '../Sounds/level0_sounds/backgroud_music_free.mp3'
+var BGSound = 'Sounds/level0_sounds/backgroud_music_free.mp3'
 
 
 // Audio reply sound 
-var AudioReplaySound = '../Sounds/level2_sounds/ML_A_L2_3.mp3'
+var AudioReplaySound = 'Sounds/level2_sounds/ML_A_L2_3.mp3'
 
 // Sound for wrong ans
-var wrong_ans_sound = '../Sounds/Global_Music/Music/For the wrong answer.mp3'
-var tryAgainSound = '../Sounds/Global_Music/GL_A_20.mp3'
+var wrong_ans_sound = 'Sounds/Global_Music/Music/For the wrong answer.mp3'
+var tryAgainSound = 'Sounds/Global_Music/GL_A_20.mp3'
+
+var Audio_GL_A_5 = 'Sounds/Global_Music/GL_A_5.mp3'
 
 // Sound for right ans
-var right_ans_sound = '../Sounds/Global_Music/Music/For correct answer.mp3'
+var right_ans_sound = 'Sounds/Global_Music/Music/For correct answer.mp3'
 
 // Global Varibale are Declare Here
 var isFirstVisit = false;
@@ -491,7 +498,8 @@ var WBPosY = 3.1
 
 // Skip Btn --------------------------
 // Skip Button 
-var skipBtn = "../asset/logo/Skip.png"
+// var skipBtn = "../asset/logo/Skip.png"
+var skipBtn = "asset/logo/Skip.png"
 var planeSkipBtn
 
 // Skip Btn Position
@@ -1710,7 +1718,8 @@ function soundAnsCheck(path) {
       // For Wrong Click
       switch (path) {
         // case '../Sounds/Global_Music/tryAgain.mp3':
-        case '../Sounds/Global_Music/Music/For the wrong answer.mp3':    // Working
+        // case '../Sounds/Global_Music/Music/For the wrong answer.mp3':    // Working
+        case wrong_ans_sound:    // Working
           console.log("For the wrong answer")
           // console.log("Check Status:- ",planeLHSMainRed.visible);
           // if (planeWrongAns.visible == true) {
@@ -3262,7 +3271,8 @@ function l2Slide5() {
 
               //For Correct Answer Audio
               // soundReplyAudio('../Sounds/Global_Music/Music/For correct answer.mp3')
-              soundAnsCheck('../Sounds/Global_Music/Music/For correct answer.mp3')
+              // soundAnsCheck('../Sounds/Global_Music/Music/For correct answer.mp3')
+              soundAnsCheck(right_ans_sound)
 
               // Load RHS Image Here
               const loadS5RHS_Ans = new THREE.TextureLoader();
@@ -4867,7 +4877,8 @@ function levelTwoComplete() {
   console.clear()
   console.log("level 2 Complete");
 
-  LevelCompleteSound('../Sounds/Global_Music/GL_A_5.mp3')
+  // LevelCompleteSound('../Sounds/Global_Music/GL_A_5.mp3')
+  LevelCompleteSound(Audio_GL_A_5)
 
   // setInterval(() => {
   //   RewardShow()
@@ -5111,7 +5122,8 @@ function init() {
     headerBack()
     // headerProgress()
     headerProgress(progressBarImg)    // Change Progressbar Image
-    headerSound('../asset/logo/Music.png')
+    // headerSound('../asset/logo/Music.png')
+    headerSound(SoundImgUnMute)
     // headerSound()
     // toggelMusic()
     headerHint()
