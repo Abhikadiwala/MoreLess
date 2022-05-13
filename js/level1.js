@@ -5812,6 +5812,9 @@ function levelOneComplete() {
   // getRewardData = ""
   // RewardPoints(getRewardData)
 
+  // Remove Skip Btn
+  scene.remove(planeSkipBtn);
+
   scene.remove(meshText)
   // headerReward(RewardEndImg) // Active
   newrewardPoints = localStorage.setItem('RewardPoints', getRewardData + 10)

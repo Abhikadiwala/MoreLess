@@ -6292,6 +6292,8 @@ function levelThreeComplete() {
   }, 200);
 
 
+  // Remove Skip Btn
+  scene.remove(planeSkipBtn);
 
   scene.remove(meshText)
   // headerReward(RewardEndImg) // Active

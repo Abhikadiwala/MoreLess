@@ -5638,6 +5638,10 @@ function levelFourComplete() {
   }, 200);
 
 
+  // Remove Skip Btn
+  scene.remove(planeSkipBtn);
+
+
   scene.remove(meshText)
   // headerReward(RewardEndImg) // Active
   newrewardPoints = localStorage.setItem('RewardPoints', getRewardData + 10)

@@ -4899,6 +4899,8 @@ function levelTwoComplete() {
   headerProgress(l2PS10)
   // headerReward(RewardEndImg)
 
+  // Remove Skip Btn
+  scene.remove(planeSkipBtn);
 
   scene.remove(meshText)
   // headerReward(RewardEndImg) // Active
