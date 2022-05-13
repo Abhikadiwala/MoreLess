@@ -3348,6 +3348,10 @@ function levelZeroComplete() {
     console.clear()
     playAudio(L0ComSound)
     console.log("planerecogEqualLHS Status:- ", planerecogEqualLHS.visible);
+
+    // Remove Skip Btn
+    scene.remove(planeSkipBtn);
+
     // Audio Indicating Equal
     // playAudio("../Sounds/level0_sounds/ML_A_L0_10.mp3")
     if (planerecogEqualLHS.visible) {
