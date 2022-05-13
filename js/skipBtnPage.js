@@ -312,11 +312,13 @@ function playNextRed(path) {
   const islevel1PreSkipStr = localStorage.getItem('level1_Pre')
   const islevel2PreSkipStr = localStorage.getItem('level2_Pre')
   const islevel3PreSkipStr = localStorage.getItem('level3_Pre')
+  const islevel4PreSkipStr = localStorage.getItem('level4_Pre')
 
   // const islevel0Skip = JSON.parse(islevel0SkipStr)
   var islevel1PreSkip = JSON.parse(islevel1PreSkipStr)
   var islevel2PreSkip = JSON.parse(islevel2PreSkipStr)
   var islevel3PreSkip = JSON.parse(islevel3PreSkipStr)
+  var islevel4PreSkip = JSON.parse(islevel4PreSkipStr)
 
   // Put Condition Here for Checking on which level to redirect
   // console.log("Switch function working")
@@ -368,7 +370,8 @@ function playNextRed(path) {
     case "islevel3Skip":
       console.log("L3 switch");
       // Check is Presentation is complete or not
-      if (islevel1PreSkip == true && islevel2PreSkip == true && islevel3PreSkip == true) {
+      // if (islevel1PreSkip == true && islevel2PreSkip == true && islevel3PreSkip == true) { // active
+      if (islevel1PreSkip == true && islevel2PreSkip == true && islevel3PreSkip == true && islevel4PreSkip == false) {
         console.log("Go to Level4 Pre")
         window.location.replace(`level4_Pre.html`); // Testing
       } else {
