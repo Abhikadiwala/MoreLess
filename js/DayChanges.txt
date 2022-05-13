@@ -12,10 +12,20 @@ Path changes of indexMain.html and indexMain.js
 
 -->> Pending Changes in Path changes 
 
--- level2_Pre
+-- level0 -- Done
+
+-- level1_Pre -- Done
+-- level1 -- Done
+
+-- level2_Pre -- Done
+-- level2   --  Done
 
 -- level3_Pre
 -- level3
 
 -- level4_Pre
 -- level4
+
+-- HomeBtnIndex -- Done
+-- HomeBtnPage -- Done
+-- SkipBtnPage -- Done

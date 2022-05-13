@@ -5037,11 +5037,11 @@ function levelTwoComplete() {
           if (level3_Pre_val == false) {
 
             // location.href = '/level3_Pre.html'
-            window.location.replace(`/level3_Pre.html`);
+            window.location.replace(`level3_Pre.html`);
 
           } else {
             // location.href = '/level3.html'
-            window.location.replace(`/level3.html`);
+            window.location.replace(`level3.html`);
 
           }
         }

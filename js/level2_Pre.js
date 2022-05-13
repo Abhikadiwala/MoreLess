@@ -610,7 +610,7 @@ var Audio6 = 'Sounds/level0_sounds/ML_A_L0_6.mp3'
 
 var AudioReplyDef = 'Sounds/Global_Music/GL_A_19.mp3'
 
-var Audio1 = 'Sounds/level0_sounds/ML_A_L0_1.mp3'
+var AudioML_1 = 'Sounds/level0_sounds/ML_A_L0_1.mp3'
 
 // ----------------------------------------------------------------------------------------
 
@@ -921,7 +921,7 @@ function firstVisitAgain() {
 
           // Comment audio only for testing purpose
           // playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
-          playAudio(Audio1)
+          playAudio(AudioML_1)
           // btndisable = false
 
           // console.log("insOneLoad inside Function", insOneLoad);
