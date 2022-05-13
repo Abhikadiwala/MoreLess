@@ -8,3 +8,14 @@ changes on 12-05-2022
 Path changes of indexMain.html and indexMain.js
 
 1. indexMain.html which is now index.html
+
+
+-->> Pending Changes in Path changes 
+
+-- level2_Pre
+
+-- level3_Pre
+-- level3
+
+-- level4_Pre
+-- level4

@@ -4964,9 +4964,9 @@ function levelTwoComplete() {
         if (currentPath == `${endPoint}/level2.html`) {
           console.log("Redirect New Page");
           console.log("endPoint", endPoint);
-          location.href = '/level2.html'
+          location.href = 'level2.html'
         } else {
-          location.href = '/level2.html'
+          location.href = 'level2.html'
         }
 
       }, false)
@@ -5027,9 +5027,9 @@ function levelTwoComplete() {
           // console.log("L2_Pre:-", level2_Pre_val)
           if (level3_Pre_val == false) {
 
-            location.href = '/level3_Pre.html'
+            location.href = 'level3_Pre.html'
           } else {
-            location.href = '/level3.html'
+            location.href = 'level3.html'
           }
 
         } else {

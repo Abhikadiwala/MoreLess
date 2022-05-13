@@ -238,72 +238,72 @@ window.addEventListener('resize', Resize)
 
 // Globle Images Path Assign Here  ------------------------------------------------------------------
 // BackGroud Image level-2
-var BGImg = "../asset/level_two_assets/Backgound.png"
+var BGImg = "asset/level_two_assets/Backgound.png"
 
 // Let's Play Image
-var LetsPlay = "../asset/Let's_play.png"
+var LetsPlay = "asset/Let's_play.png"
 
 // Audio Reply Btn Image
-var AudioReplyBtnImg = "../asset/logo/Audio_Replay.png"
+var AudioReplyBtnImg = "asset/logo/Audio_Replay.png"
 
 // Home Btn Image
-var HomeBtnImg = "../asset/logo/Home.png"
+var HomeBtnImg = "asset/logo/Home.png"
 
 // Back Btn Image
-var BackBtnImg = "../asset/logo/Back.png"
+var BackBtnImg = "asset/logo/Back.png"
 
 // Progress Bar Img Level-1 Complete
 // var ProgressbarImg = "../asset/Progress_bar/Progress bar_Type_1.png"
 // var ProgressbarImg = "../asset/Progress_bar/Updated/Progress bar_Type_1 10.png"
-var ProgressbarImg = "../asset/Progress_bar/Updated/Progress bar_level2_start.png"
+var ProgressbarImg = "asset/Progress_bar/Updated/Progress bar_level2_start.png"
 
 // Sound Img
-var SoundImgMute = "../asset/logo/Music_Mute.png"
-var SoundImgUnMute = "../asset/logo/Music.png"
+var SoundImgMute = "asset/logo/Music_Mute.png"
+var SoundImgUnMute = "asset/logo/Music.png"
 
 // Hint Img
 var hintActive = false
-var HintImgInActive = "../asset/logo/Hint_Inactive.png"
-var HintImgActive = "../asset/logo/Hint.png"
+var HintImgInActive = "asset/logo/Hint_Inactive.png"
+var HintImgActive = "asset/logo/Hint.png"
 
 // Reward Img
 // var RewardImg = "../asset/logo/Rewards.png"
 // var RewardImg = "../asset/logo/Rewards 10.png"
 // var RewardImg = "../asset/logo/Rewards 0.png"
-var RewardImg = "../asset/logo/Rewards.png"
+var RewardImg = "asset/logo/Rewards.png"
 
 // Hand Img
-var handImg = "../asset/hand_img.png"
+var handImg = "asset/hand_img.png"
 
 // AR: Audio Reply Hand
-var ARhandImg = "../asset/logo/Hand_Cursor3.png"
+var ARhandImg = "asset/logo/Hand_Cursor3.png"
 
 // Instructor 
-var l2INS1 = "../asset/Instructor_L0_1.png"
-var l2INS2 = "../asset/Instructor_L0_2.png"
+var l2INS1 = "asset/Instructor_L0_1.png"
+var l2INS2 = "asset/Instructor_L0_2.png"
 
 // Error Images
 // var ErrorBorder = "../asset/level_one_assets/Incorrect answer highlight.png"
-var ErrorBorder = "../asset/level_two_assets/Incorrectanswer highlight.png"
+var ErrorBorder = "asset/level_two_assets/Incorrectanswer highlight.png"
 // var SuccessBorder = "../asset/level_one_assets/Correct answer highlight.png"
-var SuccessBorder = "../asset/level_two_assets/Correct answer highlight.png"
+var SuccessBorder = "asset/level_two_assets/Correct answer highlight.png"
 
 // White Box Image & Image Size
 // var whiteBox = "../asset/Image place holder.png"
-var whiteBox = "../asset/level_two_assets/Image place holder.png"
+var whiteBox = "asset/level_two_assets/Image place holder.png"
 
 // Skip Button 
-var skipBtn = "../asset/logo/Skip.png"
+var skipBtn = "asset/logo/Skip.png"
 
 // Slides Images
 // Slide 3 Images
 // l1PS3 - Level 2 Presentation Slide 3
-var l2PS3LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 9_4 white footballs.png"
-var l2PS3RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 9_5 white footballs.png"
+var l2PS3LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 9_4 white footballs.png"
+var l2PS3RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 9_5 white footballs.png"
 
 // Slide 6 Images
-var l2PS6LHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 1_2 red shirts.png"
-var l2PS6RHS = "../asset/level_two_assets/image asset Ltwo Updated/Set 1_10 red shirts.png"
+var l2PS6LHS = "asset/level_two_assets/image asset Ltwo Updated/Set 1_2 red shirts.png"
+var l2PS6RHS = "asset/level_two_assets/image asset Ltwo Updated/Set 1_10 red shirts.png"
 
 // Global x,y Size For Slide Rounds -------------------------------------------------------
 // SXIPosLHS = Slide X Image Position   LHS
@@ -588,24 +588,29 @@ document.addEventListener("visibilitychange", function () {
 
 // All Sound Path Put Here  ---------------------------------------------------------
 // BackGroud Sound
-var BGSound = '../Sounds/level0_sounds/backgroud_music_free.mp3'
+var BGSound = 'Sounds/level0_sounds/backgroud_music_free.mp3'
 
 // Audio Play Again
-var AudioPAgain = '../Sounds/Global_Music/Here_ins_again.mp3'
+var AudioPAgain = 'Sounds/Global_Music/Here_ins_again.mp3'
 
 // Audio Answer Selection
-var WrongSelSound = '../Sounds/Global_Music/Music/For the wrong answer.mp3'
-var tryAgainSound = '../Sounds/Global_Music/GL_A_20.mp3'
+var WrongSelSound = 'Sounds/Global_Music/Music/For the wrong answer.mp3'
+var tryAgainSound = 'Sounds/Global_Music/GL_A_20.mp3'
 
-var CorrectSelSound = '../Sounds/Global_Music/Music/For correct answer.mp3'
+var CorrectSelSound = 'Sounds/Global_Music/Music/For correct answer.mp3'
 
 // Level 1 All Audios
-var Audio1 = '../Sounds/level2_sounds/ML_A_L2_1.mp3'
-var Audio2 = '../Sounds/level2_sounds/ML_A_L2_2.mp3'
-var Audio3 = '../Sounds/level2_sounds/ML_A_L2_3.mp3'
-var Audio4 = '../Sounds/level2_sounds/ML_A_L2_4.mp3'
+var Audio1 = 'Sounds/level2_sounds/ML_A_L2_1.mp3'
+var Audio2 = 'Sounds/level2_sounds/ML_A_L2_2.mp3'
+var Audio3 = 'Sounds/level2_sounds/ML_A_L2_3.mp3'
+var Audio4 = 'Sounds/level2_sounds/ML_A_L2_4.mp3'
 
-var AudioReplyDef = '../Sounds/Global_Music/GL_A_19.mp3'
+var Audio5 = 'Sounds/level0_sounds/ML_A_L0_5.mp3'
+var Audio6 = 'Sounds/level0_sounds/ML_A_L0_6.mp3'
+
+var AudioReplyDef = 'Sounds/Global_Music/GL_A_19.mp3'
+
+var Audio1 = 'Sounds/level0_sounds/ML_A_L0_1.mp3'
 
 // ----------------------------------------------------------------------------------------
 
@@ -915,7 +920,8 @@ function firstVisitAgain() {
           plane2.visible = false;
 
           // Comment audio only for testing purpose
-          playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
+          // playAudio('../Sounds/level0_sounds/ML_A_L0_1.mp3')
+          playAudio(Audio1)
           // btndisable = false
 
           // console.log("insOneLoad inside Function", insOneLoad);
@@ -1122,14 +1128,16 @@ function playAudio(path) {
             // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
             break;
 
-          case '../Sounds/level0_sounds/ML_A_L0_5.mp3':
+          // case '../Sounds/level0_sounds/ML_A_L0_5.mp3':
+          case Audio5:
             // console.log("Fourth end");
             // introLessSucess()
             l2PS5()
             // playAudio("../Sounds/level0_sounds/ML_A_L0_4.mp3")
             break;
 
-          case '../Sounds/level0_sounds/ML_A_L0_6.mp3':
+          // case '../Sounds/level0_sounds/ML_A_L0_6.mp3':
+          case Audio6:
             // console.log("Fifth end");
             // playAudio("../Sounds/level1_sounds/ML_A_L1_4.mp3")
             playAudio(Audio4)
@@ -1501,9 +1509,11 @@ function headerHome() {
         if (currentPath == `${endPoint}/level2_Pre.html`) {
           console.log("Redirect New Page")
           console.log("endPoint", endPoint)
-          location.href = '/homePopup.html'
+          // location.href = '/homePopup.html'
+          location.href = 'homePopup.html'
         } else {
-          location.href = '/homePopup.html'
+          location.href = 'homePopup.html'
+          location.href = 'homePopup.html'
         }
 
         // console.log("planeHome clicked")
@@ -1574,11 +1584,11 @@ function headerBack() {
           console.log("Redirect New Page");
           console.log("endPoint", endPoint);
           // location.href = "/level1.html"
-          window.location.replace(`/level1.html`);
+          window.location.replace(`level1.html`);
 
         } else {
           // location.href = "/level1.html"
-          window.location.replace(`/level1.html`);
+          window.location.replace(`level1.html`);
 
         }
       })
@@ -1818,9 +1828,9 @@ function headerHint() {
           if (currentPath == `${endPoint}/level2_Pre.html`) {
             console.log("Redirect New Page");
             console.log("endPoint", endPoint);
-            location.href = '/level2_Pre.html'
+            location.href = 'level2_Pre.html'
           } else {
-            location.href = '/level2_Pre.html'
+            location.href = 'level2_Pre.html'
           }
         })
       }
@@ -2696,7 +2706,8 @@ function l2PS4() {
   // Audio Indicating Less
   isFunc4Active = true
   // scene.remove(planeReplyAudio)
-  playAudio("../Sounds/level0_sounds/ML_A_L0_5.mp3")
+  // playAudio("../Sounds/level0_sounds/ML_A_L0_5.mp3")
+  playAudio(Audio5)
   sound.setVolume(0)
   // PlayAudio Function Call for Move to Next Function
   // playAudio("introLess_over")
@@ -2884,7 +2895,8 @@ function l2PS4() {
 function l2PS5() {
   isAudio4Complete = true
   // Audio Indicating Less
-  playAudio("../Sounds/level0_sounds/ML_A_L0_6.mp3")
+  // playAudio("../Sounds/level0_sounds/ML_A_L0_6.mp3")
+  playAudio(Audio6)
   // playAudio("../Sounds/level1_sounds/ML_A_L1_4.mp3")
   sound.setVolume(0)
   // PlayAudio Function Call for Move to Next Function
@@ -3311,12 +3323,12 @@ function l2PS6_Skip() {
           console.log("endPoint", endPoint);
           // location.href = '/level2.html'
           // window.location.replace(`${endPoint}/level2.html`);
-          window.location.replace(`/level2.html`);
+          window.location.replace(`level2.html`);
 
         } else {
           // location.href = '/level2.html'
           // window.location.replace(`${endPoint}/level2.html`);
-          window.location.replace(`/level2.html`);
+          window.location.replace(`level2.html`);
 
         }
 
