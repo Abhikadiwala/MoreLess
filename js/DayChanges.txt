@@ -15,17 +15,17 @@ Path changes of indexMain.html and indexMain.js
 -- level0 -- Done
 
 -- level1_Pre -- Done
--- level1 -- Done
+-- level1     -- Done
 
 -- level2_Pre -- Done
--- level2   --  Done
+-- level2     -- Done -- skip button path change pending
 
--- level3_Pre
--- level3
+-- level3_Pre -- Done
+-- level3     -- Done -- skip button path change pending
 
--- level4_Pre
--- level4
+-- level4_Pre -- 
+-- level4     -- 
 
 -- HomeBtnIndex -- Done
--- HomeBtnPage -- Done
--- SkipBtnPage -- Done
+-- HomeBtnPage  -- Done
+-- SkipBtnPage  -- Done

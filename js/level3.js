@@ -254,19 +254,23 @@ window.addEventListener('resize', Resize)
 // -------------------------- All The Images Of This Level Declare Here ---------------------------------
 
 // NavBar Buttons
-var homeBtn = "../asset/logo/Home.png"
-var backBtn = "../asset/logo/Back.png"
+var homeBtn = "asset/logo/Home.png"
+// var homeBtn = "../asset/logo/Home.png"
+var backBtn = "asset/logo/Back.png"
 
 // var bgMusicBtn = 
-var hintBtnActive = "../asset/logo/Hint.png"
-var hintBtnInactive = "../asset/logo/Hint_Inactive.png"
+var hintBtnActive = "asset/logo/Hint.png"
+var hintBtnInactive = "asset/logo/Hint_Inactive.png"
 // var RewardImg = "../asset/logo/Rewards.png"
 // var RewardImg = "../asset/logo/Rewards 20.png"   // Level 3 Reward Image
-var RewardImg = "../asset/logo/Rewards.png"   // Level 3 Reward Image
+var RewardImg = "asset/logo/Rewards.png"   // Level 3 Reward Image
 
 // var bgImg = "../asset/level_one_assets/Backgound.png"   // BackGroud Image
-var bgImg = "../asset/level_three_assets/Backgound.png"   // BackGroud L3 Image
-var letsPlay = "../asset/Let's_play.png"    // Let's Play Button
+var bgImg = "asset/level_three_assets/Backgound.png"   // BackGroud L3 Image
+var letsPlay = "asset/Let's_play.png"    // Let's Play Button
+
+// var MusicMuteBtn = "asset/logo/Music_Mute.png"
+// var MusicBtn = "asset/logo/Music.png"
 
 // All Correct Ans Variables
 var S1Cor = false, S2Cor = false, S3Cor = false, S4Cor = false, S5Cor = false, S6Cor = false,
@@ -277,95 +281,99 @@ var S1Wro = false, S2Wro = false, S3Wro = false, S4Wro = false, S5Wro = false, S
   S7Wro = false, S8Wro = false, S9Wro = false, S10Wro = false
 
 // Level 1 Complete Slide Images
-var playAgain = "../asset/logo/Play again.png"
-var playNext = "../asset/logo/Play the next level.png"
+var playAgain = "asset/logo/Play again.png"
+var playNext = "asset/logo/Play the next level.png"
 
-// Error Images
-var ErrorBorder = "../asset/level_three_assets/Incorrect answer highlight.png"
-var SuccessBorder = "../asset/level_three_assets/Correct answer highlight.png"
+// Error Images 
+var ErrorBorder = "asset/level_three_assets/Incorrect answer highlight.png"
+var SuccessBorder = "asset/level_three_assets/Correct answer highlight.png"
+
+// Sound Img
+var MusicMuteBtn = "asset/logo/Music_Mute.png"
+var MusicBtn = "asset/logo/Music.png"
 
 // Level 1 Images
 // Load Place holder Image - white Box
 // var WhiteBox = "../asset/Image place holder.png"
-var whiteBox = "../asset/level_three_assets/Image place holder.png"  // L3 Box Image
+var whiteBox = "asset/level_three_assets/Image place holder.png"  // L3 Box Image
 
 // Slide-1 Images
 // var S1LHS = "../asset/level_one_assets/Image asset Lone/Set 1_2 blue shirts.png"    // 2 Blue Shirts
 
 // For set 1 Correct 1 ---- 7 | 1 | 10
 // var S1LHS = "../asset/level_two_assets/image aseet Ltwo Updated/Set 1_10 red shirts.png"   
-var S1UP = "../asset/level_three_assets/image assest Lthree updated/Set 1_1 shuttlecock.png"
-var S1LHS = "../asset/level_three_assets/image assest Lthree updated/Set 1_7 shuttlecock.png"
-var S1MID = "../asset/level_three_assets/image assest Lthree updated/Set 1_1 shuttlecock.png"
-var S1RHS = "../asset/level_three_assets/image assest Lthree updated/Set 1_10 shuttlecock.png"
+var S1UP = "asset/level_three_assets/image assest Lthree updated/Set 1_1 shuttlecock.png"
+var S1LHS = "asset/level_three_assets/image assest Lthree updated/Set 1_7 shuttlecock.png"
+var S1MID = "asset/level_three_assets/image assest Lthree updated/Set 1_1 shuttlecock.png"
+var S1RHS = "asset/level_three_assets/image assest Lthree updated/Set 1_10 shuttlecock.png"
 
 // Slide-2 Images
-var S2UP = "../asset/level_three_assets/image assest Lthree updated/Set 2_3 racquets.png"
-var S2LHS = "../asset/level_three_assets/image assest Lthree updated/Set 2_3 racquets.png"
-var S2MID = "../asset/level_three_assets/image assest Lthree updated/Set 2_6 racquets.png"
-var S2RHS = "../asset/level_three_assets/image assest Lthree updated/Set 2_9 racquets.png"
+var S2UP = "asset/level_three_assets/image assest Lthree updated/Set 2_3 racquets.png"
+var S2LHS = "asset/level_three_assets/image assest Lthree updated/Set 2_3 racquets.png"
+var S2MID = "asset/level_three_assets/image assest Lthree updated/Set 2_6 racquets.png"
+var S2RHS = "asset/level_three_assets/image assest Lthree updated/Set 2_9 racquets.png"
 
 // Slide-3 Images
 // MID Cor
-var S3UP = "../asset/level_three_assets/image assest Lthree updated/Set 3_5 trophies.png"
-var S3LHS = "../asset/level_three_assets/image assest Lthree updated/Set 3_1 trophies.png"
-var S3MID = "../asset/level_three_assets/image assest Lthree updated/Set 3_5 trophies.png"
-var S3RHS = "../asset/level_three_assets/image assest Lthree updated/Set 3_7 trophies.png"
+var S3UP = "asset/level_three_assets/image assest Lthree updated/Set 3_5 trophies.png"
+var S3LHS = "asset/level_three_assets/image assest Lthree updated/Set 3_1 trophies.png"
+var S3MID = "asset/level_three_assets/image assest Lthree updated/Set 3_5 trophies.png"
+var S3RHS = "asset/level_three_assets/image assest Lthree updated/Set 3_7 trophies.png"
 
 // Slide-4 Images
 // MID Cor
-var S4UP = "../asset/level_three_assets/image assest Lthree updated/Set 4_2 pens.png"
-var S4LHS = "../asset/level_three_assets/image assest Lthree updated/Set 4_6 pens.png"
-var S4MID = "../asset/level_three_assets/image assest Lthree updated/Set 4_2 pens.png"  // 8 FootBalls Blue
-var S4RHS = "../asset/level_three_assets/image assest Lthree updated/Set 4_10 pens.png"  // 4 FootBalls Blue
+var S4UP = "asset/level_three_assets/image assest Lthree updated/Set 4_2 pens.png"
+var S4LHS = "asset/level_three_assets/image assest Lthree updated/Set 4_6 pens.png"
+var S4MID = "asset/level_three_assets/image assest Lthree updated/Set 4_2 pens.png"  // 8 FootBalls Blue
+var S4RHS = "asset/level_three_assets/image assest Lthree updated/Set 4_10 pens.png"  // 4 FootBalls Blue
 
 // Slide-5 Images
 // LHS Cor
-var S5UP = "../asset/level_three_assets/image assest Lthree updated/Set 5_4 erasers.png"
-var S5LHS = "../asset/level_three_assets/image assest Lthree updated/Set 5_4 erasers.png"
-var S5MID = "../asset/level_three_assets/image assest Lthree updated/Set 5_6 erasers.png"  // 10 Balloons
-var S5RHS = "../asset/level_three_assets/image assest Lthree updated/Set 5_2 erasers.png"  // 5 Balloons
+var S5UP = "asset/level_three_assets/image assest Lthree updated/Set 5_4 erasers.png"
+var S5LHS = "asset/level_three_assets/image assest Lthree updated/Set 5_4 erasers.png"
+var S5MID = "asset/level_three_assets/image assest Lthree updated/Set 5_6 erasers.png"  // 10 Balloons
+var S5RHS = "asset/level_three_assets/image assest Lthree updated/Set 5_2 erasers.png"  // 5 Balloons
 
 // Slide-6 Images
 // LHS Cor
-var S6UP = "../asset/level_three_assets/image assest Lthree updated/Set 6_6 buttons.png"
-var S6LHS = "../asset/level_three_assets/image assest Lthree updated/Set 6_1 buttons.png"  // 5 Balloons
-var S6MID = "../asset/level_three_assets/image assest Lthree updated/Set 6_6 buttons.png"  // 10 Balloons
-var S6RHS = "../asset/level_three_assets/image assest Lthree updated/Set 6_4 buttons.png"
+var S6UP = "asset/level_three_assets/image assest Lthree updated/Set 6_6 buttons.png"
+var S6LHS = "asset/level_three_assets/image assest Lthree updated/Set 6_1 buttons.png"  // 5 Balloons
+var S6MID = "asset/level_three_assets/image assest Lthree updated/Set 6_6 buttons.png"  // 10 Balloons
+var S6RHS = "asset/level_three_assets/image assest Lthree updated/Set 6_4 buttons.png"
 
 // Slide-7 Images
 // RHS Cor
-var S7UP = "../asset/level_three_assets/image assest Lthree updated/Set 7_5 carrots.png"  // 8 socks
-var S7LHS = "../asset/level_three_assets/image assest Lthree updated/Set 7_2 carrots.png"  // 8 socks
-var S7MID = "../asset/level_three_assets/image assest Lthree updated/Set 7_5 carrots.png"  // 8 socks
-var S7RHS = "../asset/level_three_assets/image assest Lthree updated/Set 7_7 carrots.png"  // 6 socks
+var S7UP = "asset/level_three_assets/image assest Lthree updated/Set 7_5 carrots.png"  // 8 socks
+var S7LHS = "asset/level_three_assets/image assest Lthree updated/Set 7_2 carrots.png"  // 8 socks
+var S7MID = "asset/level_three_assets/image assest Lthree updated/Set 7_5 carrots.png"  // 8 socks
+var S7RHS = "asset/level_three_assets/image assest Lthree updated/Set 7_7 carrots.png"  // 6 socks
 
 // Slide-8 Images
 // MID Cor
-var S8UP = "../asset/level_three_assets/image assest Lthree updated/Set 8_8 towels.png"  // 5 Trousers
-var S8LHS = "../asset/level_three_assets/image assest Lthree updated/Set 8_10 towels.png"  // 3 Trousers
-var S8MID = "../asset/level_three_assets/image assest Lthree updated/Set 8_5 towels.png"  // 5 Trousers
-var S8RHS = "../asset/level_three_assets/image assest Lthree updated/Set 8_8 towels.png"  // 5 Trousers
+var S8UP = "asset/level_three_assets/image assest Lthree updated/Set 8_8 towels.png"  // 5 Trousers
+var S8LHS = "asset/level_three_assets/image assest Lthree updated/Set 8_10 towels.png"  // 3 Trousers
+var S8MID = "asset/level_three_assets/image assest Lthree updated/Set 8_5 towels.png"  // 5 Trousers
+var S8RHS = "asset/level_three_assets/image assest Lthree updated/Set 8_8 towels.png"  // 5 Trousers
 
 // Slide-9 Images
 // MID Cor
-var S9UP = "../asset/level_three_assets/image assest Lthree updated/Set 9_6 bricks.png"  // 5 white ball
-var S9LHS = "../asset/level_three_assets/image assest Lthree updated/Set 9_8 bricks.png"  // 4 white ball
-var S9MID = "../asset/level_three_assets/image assest Lthree updated/Set 9_6 bricks.png"  // 5 white ball
-var S9RHS = "../asset/level_three_assets/image assest Lthree updated/Set 9_5 bricks.png"  // 5 white ball
+var S9UP = "asset/level_three_assets/image assest Lthree updated/Set 9_6 bricks.png"  // 5 white ball
+var S9LHS = "asset/level_three_assets/image assest Lthree updated/Set 9_8 bricks.png"  // 4 white ball
+var S9MID = "asset/level_three_assets/image assest Lthree updated/Set 9_6 bricks.png"  // 5 white ball
+var S9RHS = "asset/level_three_assets/image assest Lthree updated/Set 9_5 bricks.png"  // 5 white ball
 
 // Slide-10 Images
 // RHS Cor
-var S10UP = "../asset/level_three_assets/image assest Lthree updated/Set 10_4 cars.png"  // 10 Shoes
-var S10LHS = "../asset/level_three_assets/image assest Lthree updated/Set 10_4 cars.png"  // 10 Shoes
-var S10MID = "../asset/level_three_assets/image assest Lthree updated/Set 10_3 cars.png"  // 10 Shoes
-var S10RHS = "../asset/level_three_assets/image assest Lthree updated/Set 10_5 cars.png"  // 9 Shoes
+var S10UP = "asset/level_three_assets/image assest Lthree updated/Set 10_4 cars.png"  // 10 Shoes
+var S10LHS = "asset/level_three_assets/image assest Lthree updated/Set 10_4 cars.png"  // 10 Shoes
+var S10MID = "asset/level_three_assets/image assest Lthree updated/Set 10_3 cars.png"  // 10 Shoes
+var S10RHS = "asset/level_three_assets/image assest Lthree updated/Set 10_5 cars.png"  // 9 Shoes
 
 
 // Load ProgressBar Img
 // Main Image
 // var progressBarImg = "../asset/Progress_bar/Updated/Progress bar_Type_1 20.png"
-var progressBarImg = "../asset/Progress_bar/Updated/Progress bar_level3_start.png"
+var progressBarImg = "asset/Progress_bar/Updated/Progress bar_level3_start.png"
 
 
 // Audio Reply Btn Image
@@ -374,28 +382,32 @@ var AudioReplyBtnImg = "../asset/logo/Audio_Replay.png"
 // Change Image according to round
 // var l1PSDemo = "../asset/Progress_bar/Progress bar_Type_3.png"
 // var l1PSDemo = "../asset/Progress_bar/Progress_Bar_Type2_element20.png" // Working
-var l3PS1 = "../asset/Progress_bar/Updated/Progress bar_Type_1 21.png"
-var l3PS2 = "../asset/Progress_bar/Updated/Progress bar_Type_1 22.png"
-var l3PS3 = "../asset/Progress_bar/Updated/Progress bar_Type_1 23.png"
-var l3PS4 = "../asset/Progress_bar/Updated/Progress bar_Type_1 24.png"
-var l3PS5 = "../asset/Progress_bar/Updated/Progress bar_Type_1 25.png"
-var l3PS6 = "../asset/Progress_bar/Updated/Progress bar_Type_1 26.png"
-var l3PS7 = "../asset/Progress_bar/Updated/Progress bar_Type_1 27.png"
-var l3PS8 = "../asset/Progress_bar/Updated/Progress bar_Type_1 28.png"
-var l3PS9 = "../asset/Progress_bar/Updated/Progress bar_Type_1 29.png"
-var l3PS10 = "../asset/Progress_bar/Updated/Progress bar_Type_1 30.png"
+var l3PS1 = "asset/Progress_bar/Updated/Progress bar_Type_1 21.png"
+var l3PS2 = "asset/Progress_bar/Updated/Progress bar_Type_1 22.png"
+var l3PS3 = "asset/Progress_bar/Updated/Progress bar_Type_1 23.png"
+var l3PS4 = "asset/Progress_bar/Updated/Progress bar_Type_1 24.png"
+var l3PS5 = "asset/Progress_bar/Updated/Progress bar_Type_1 25.png"
+var l3PS6 = "asset/Progress_bar/Updated/Progress bar_Type_1 26.png"
+var l3PS7 = "asset/Progress_bar/Updated/Progress bar_Type_1 27.png"
+var l3PS8 = "asset/Progress_bar/Updated/Progress bar_Type_1 28.png"
+var l3PS9 = "asset/Progress_bar/Updated/Progress bar_Type_1 29.png"
+var l3PS10 = "asset/Progress_bar/Updated/Progress bar_Type_1 30.png"
 
 
 // Audio reply sound 
 // var AudioReplaySound = '../Sounds/level2_sounds/ML_A_L2_3.mp3'
-var AudioReplaySound = '../Sounds/level3_sounds/ML_A_L3_3.mp3'
+var AudioReplaySound = 'Sounds/level3_sounds/ML_A_L3_3.mp3'
+
+var BGSound = 'Sounds/level0_sounds/backgroud_music_free.mp3'
 
 // Sound for wrong ans
-var wrong_ans_sound = '../Sounds/Global_Music/Music/For the wrong answer.mp3'
-var tryAgainSound = '../Sounds/Global_Music/GL_A_20.mp3'
+var wrong_ans_sound = 'Sounds/Global_Music/Music/For the wrong answer.mp3'
+var tryAgainSound = 'Sounds/Global_Music/GL_A_20.mp3'
+
+var Audio_GL_A_5 = "Sounds/Global_Music/GL_A_5.mp3"
 
 // Sound for right ans
-var right_ans_sound = '../Sounds/Global_Music/Music/For correct answer.mp3'
+var right_ans_sound = 'Sounds/Global_Music/Music/For correct answer.mp3'
 
 // Global Varibale are Declare Here
 var isFirstVisit = false;
@@ -524,7 +536,8 @@ var PRewardY = 1.53
 
 // Skip Btn --------------------------
 // Skip Button 
-var skipBtn = "../asset/logo/Skip.png"
+// var skipBtn = "../asset/logo/Skip.png"
+var skipBtn = "asset/logo/Skip.png"
 var planeSkipBtn
 
 // // Skip Btn Position
@@ -1052,7 +1065,8 @@ function firstVisit() {
         })
 
 
-        soundBG('../Sounds/level0_sounds/backgroud_music_free.mp3')
+        // soundBG('../Sounds/level0_sounds/backgroud_music_free.mp3')
+        soundBG(BGSound)
         if (audioPlayed == true) {
 
           init();     // call Main Function
@@ -1207,9 +1221,10 @@ function headerHome() {
         if (currentPath == `${endPoint}/level3.html`) {
           console.log("Redirect New Page");
           console.log("endPoint", endPoint);
-          location.href = '/homePopup.html'
+          // location.href = '/homePopup.html'
+          location.href = 'homePopup.html'
         } else {
-          location.href = '/homePopup.html'
+          location.href = 'homePopup.html'
         }
 
         // Redirect to new page onClick - not working
@@ -1296,11 +1311,11 @@ function headerBack() {
           console.log("Redirect New Page");
           console.log("endPoint", endPoint);
           // location.href = '/level2.html'
-          window.location.replace(`/level2.html`);
+          window.location.replace(`level2.html`);
 
         } else {
           // location.href = '/level2.html'
-          window.location.replace(`/level2.html`);
+          window.location.replace(`level2.html`);
 
         }
 
@@ -1418,8 +1433,8 @@ function toggelMusic() {
     const hSoundOn = new THREE.TextureLoader();
     hSoundOn.load(
       // Load Music Image
-      "../asset/logo/Music_Mute.png",
-
+      // "../asset/logo/Music_Mute.png",
+      MusicMuteBtn,
 
       function (textureSound) {
         var planeMaterialSound = new THREE.MeshBasicMaterial({
@@ -1452,7 +1467,8 @@ function toggelMusic() {
     const hSoundOn = new THREE.TextureLoader();
     hSoundOn.load(
       // Load Music Image
-      "../asset/logo/Music.png",
+      // "../asset/logo/Music.png",
+      MusicBtn,
 
       function (textureSound) {
         var planeMaterialSound = new THREE.MeshBasicMaterial({
@@ -1516,11 +1532,11 @@ function headerHint() {
           console.log("Redirect New Page");
           console.log("endPoint", endPoint);
           // location.href = '/level3_Pre.html'
-          window.location.replace(`/level3_Pre.html`);
+          window.location.replace(`level3_Pre.html`);
 
         } else {
           // location.href = '/level3_Pre.html'
-          window.location.replace(`/level3_Pre.html`);
+          window.location.replace(`level3_Pre.html`);
 
         }
 
@@ -1664,7 +1680,8 @@ function soundAnsCheck(path) {
       // For Wrong Click
       switch (path) {
         // case '../Sounds/Global_Music/tryAgain.mp3':
-        case '../Sounds/Global_Music/Music/For the wrong answer.mp3':    // Working
+        // case '../Sounds/Global_Music/Music/For the wrong answer.mp3':    // Working
+        case wrong_ans_sound:    // Working
           console.log("For the wrong answer")
           // console.log("Check Status:- ",planeLHSMainRed.visible);
           // if (planeWrongAns.visible == true) {
@@ -6208,12 +6225,12 @@ function skiplevelBtn() {
           // document.location.href = '/level2_Pre.html'
           // window.location.replace(`${endPoint}/level2_Pre.html`);
           // window.location.replace(`/level4_Pre.html`); // working
-          window.location.replace(`/skipBtnPage.html`); // Testing
+          window.location.replace(`skipBtnPage.html`); // Testing
 
         } else {
           // document.location.href = '/level2.html'
           // window.location.replace(`/level4.html`); // working
-          window.location.replace(`/skipBtnPage.html`); // Testing
+          window.location.replace(`skipBtnPage.html`); // Testing
 
         }
 
@@ -6265,7 +6282,8 @@ function levelThreeComplete() {
   console.log("level 3 Complete");
   headerProgress(l3PS10)
   // RewardShow()
-  LevelCompleteSound('../Sounds/Global_Music/GL_A_5.mp3')
+  // LevelCompleteSound('../Sounds/Global_Music/GL_A_5.mp3')
+  LevelCompleteSound(Audio_GL_A_5)
 
   setTimeout(() => {
     // setInterval(() => {
@@ -6340,9 +6358,9 @@ function levelThreeComplete() {
         if (currentPath == `${endPoint}/level3.html`) {
           console.log("Redirect New Page");
           console.log("endPoint", endPoint);
-          location.href = '/level3.html'
+          location.href = 'level3.html'
         } else {
-          location.href = '/level3.html'
+          location.href = 'level3.html'
         }
 
         // Only Remove but Button is Active after this event perform
@@ -6406,11 +6424,11 @@ function levelThreeComplete() {
           // console.log("L2_Pre:-", level2_Pre_val)
           if (level4_Pre_val == false) {
             // location.href = '/level4_Pre.html'
-            window.location.replace(`/level4_Pre.html`);
+            window.location.replace(`level4_Pre.html`);
 
           } else {
             // location.href = '/level4.html'
-            window.location.replace(`/level4.html`);
+            window.location.replace(`level4.html`);
 
           }
 
@@ -6418,9 +6436,9 @@ function levelThreeComplete() {
           // location.href = '/level4_Pre.html'
           if (level4_Pre_val == false) {
 
-            location.href = '/level4_Pre.html'
+            location.href = 'level4_Pre.html'
           } else {
-            location.href = '/level4.html'
+            location.href = 'level4.html'
           }
 
         }
@@ -6568,7 +6586,8 @@ function init() {
     headerBack()
     headerProgress(progressBarImg)    // Change Progressbar Image
     // headerProgress()
-    headerSound('../asset/logo/Music.png')
+    // headerSound('../asset/logo/Music.png')
+    headerSound(MusicBtn)
     // headerSound()
     // toggelMusic()
 
