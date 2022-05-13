@@ -377,7 +377,7 @@ var progressBarImg = "asset/Progress_bar/Updated/Progress bar_level3_start.png"
 
 
 // Audio Reply Btn Image
-var AudioReplyBtnImg = "../asset/logo/Audio_Replay.png"
+var AudioReplyBtnImg = "asset/logo/Audio_Replay.png"
 
 // Change Image according to round
 // var l1PSDemo = "../asset/Progress_bar/Progress bar_Type_3.png"
@@ -767,7 +767,7 @@ console.log("getRewardData Out", getRewardData)
 // ---------------------------------------------------------------------------------------------------------
 
 // Stop All Logs Dispay
-// console.log = function () { }
+console.log = function () { }
 console.error = function () { }
 console.warn = function () { }
 
